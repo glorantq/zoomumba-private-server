@@ -4,6 +4,7 @@ if __name__ == '__main__':
     # Import server stuff #
     #######################
     from bundle import TEMPLATES_DIR, STUB_DIR, STYLES_DIR, ASSETS_DIR
+    from commands import *
     
     ##########################
     # Import 3rd party stuff #
@@ -27,6 +28,12 @@ def main():
     # Setup list of game commands #
     ###############################
     
+    available_commands = {
+        "config.getCv": handle_getCv,
+        "config.getConfig": handle_getConfig,
+        "init.getUser": handle_getUser,
+        "swfCookie.set": handle_swfCookieSet
+    }
     
     #########################
     # Load global game data #
@@ -34,27 +41,6 @@ def main():
     print(" [+] Loading init data...")
     
     p = Path(__file__).parents[0]
-    
-    ################################
-    # Sort accounts by location id #
-    ################################
-    
-    
-    ##########################
-    # Load site translations #
-    ##########################
-    
-    ########################################
-    # Get total amount of created accounts #
-    ########################################
-    
-    '''
-    # GLITCH
-    host = '0.0.0.0'
-    port = 8080
-    server_ip = "http://skyrama.glitch.me"
-    assets_ip = "https://cdn.jsdelivr.net/gh/Mima2370/skyrama-private-server/"
-    '''
     
     # LOCAL
     host = '127.0.0.1'
@@ -99,19 +85,36 @@ def main():
     @app.route("/ZooApi.php", methods=['POST'])
     def handle_request():
         print(request.form["json"])
+
+        total_response = {}
+        total_response["callstack"] = [[]]
+        total_response["obj"] = {}
+
+        if "sid" in request.form:
+            total_response["obj"]["zoo_sid"] = request.form["sid"]
+        else:
+            total_response["obj"]["zoo_sid"] = "test"
+
+        f = open(os.path.join(p, "data", "8299495.json"), "r")
+        json_data = json.loads(str(f.read()))
+
+        f = open(os.path.join(p, "data", "global_config_data.json.def"), "r")
+        config_data = json.loads(str(f.read()))
+
         callstack = json.loads(request.form["json"])["callstack"]
         for i in callstack:
-            print(i.keys())
-            if list(i.keys())[0] == "config.getCv":
-                return open(os.path.join(p, "getCv.json"), "r")
-            if list(i.keys())[0] == "swfCookie.set":
-                pass
-            if list(i.keys())[0] == "config.getConfig":
-                return open(os.path.join(p, "getConfig.json"), "r")
-            if list(i.keys())[0] == "init.getUser":
-                return open(os.path.join(p, "getUser.json"), "r")
-            
-        return ""
+            command = list(i.keys())[0]
+
+            if command in available_commands:
+                print("Command " + command + " handled")
+                handler = available_commands[command]
+                total_response["obj"] = handler(command, request.args["uId"], total_response["obj"], json_data, config_data)
+                total_response["callstack"][0].append({"t":1,"v":""})
+            else:
+                print("Command " + command + " not handled")
+
+        #print(total_response)  
+        return total_response
     
     
     ########

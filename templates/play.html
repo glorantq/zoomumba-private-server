@@ -69,19 +69,21 @@
    <script type="text/javascript">
       //<![CDATA[
       var flashVars = {
-          uId: '123test',
+          uId: '123',
           token: '{{token}}',
           apiHost: '127.0.0.1:5050',
           cdnHost: '127.0.0.1:5050/assets',
           locale: 'cs',
           preCv: 'largeplanes',
           isHTTPS: '0',
-          music: 'sound/streams/airville_streams_intro.mp3',
           eventStreamContext: "",
           openSocial: 0,
           ssoUser: 0,
           friendInvite: 0,
-          logging: 0
+          logging: 0,
+	      tutS: 1,
+          width: 987,
+          height: 566
       };
       
       var flashParams = {
@@ -89,7 +91,8 @@
           scale: 'noScale',
           allowFullscreen: 'true',
           allowScriptAccess: 'always',
-          bgcolor: '#FFFFFF'
+          bgcolor: '#FFFFFF',
+	  wmode: 'transparent'
       };
       
       var flashAttributes = {
