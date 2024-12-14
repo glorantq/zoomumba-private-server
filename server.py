@@ -32,7 +32,10 @@ def main():
         "config.getCv": handle_getCv,
         "config.getConfig": handle_getConfig,
         "init.getUser": handle_getUser,
-        "swfCookie.set": handle_swfCookieSet
+        "swfCookie.set": handle_swfCookieSet,
+        "tutorial.rS": handle_tutorialRs,
+        "field.fia": handle_fieldFia,
+        "gameitems.get": handle_gameitemsGet
     }
     
     #########################
@@ -58,7 +61,11 @@ def main():
     
     @app.route('/')
     def homepage():
-        return render_template("play.html")
+        f = open(os.path.join(p, "data", "8299495.json"), "r")
+        json_data = json.loads(str(f.read()))
+        tutS = json_data["uObj"]["tutS"]
+        tutT = json_data["uObj"]["tutT"]
+        return render_template("play.html", tutS=tutS, tutT=tutT)
     
     @app.route("/crossdomain.xml")
     def crossdomain():
@@ -88,32 +95,40 @@ def main():
 
         total_response = {}
         total_response["callstack"] = [[]]
-        total_response["obj"] = {}
+        obj = {}
 
         if "sid" in request.form:
-            total_response["obj"]["zoo_sid"] = request.form["sid"]
+            obj["zoo_sid"] = request.form["sid"]
         else:
-            total_response["obj"]["zoo_sid"] = "test"
+            obj["zoo_sid"] = "test"
+
+        if "sData" not in obj:
+            obj["sData"] = {}
+        obj["sData"]["time"] = int(time.time())
 
         f = open(os.path.join(p, "data", "8299495.json"), "r")
         json_data = json.loads(str(f.read()))
+        f.close()
 
         f = open(os.path.join(p, "data", "global_config_data.json.def"), "r")
         config_data = json.loads(str(f.read()))
+        f.close()
 
         callstack = json.loads(request.form["json"])["callstack"]
         for i in callstack:
             command = list(i.keys())[0]
-
             if command in available_commands:
                 print("Command " + command + " handled")
                 handler = available_commands[command]
-                total_response["obj"] = handler(command, request.args["uId"], total_response["obj"], json_data, config_data)
+                handler(i[command], request.args["uId"], obj, json_data, config_data)
                 total_response["callstack"][0].append({"t":1,"v":""})
             else:
                 print("Command " + command + " not handled")
 
-        #print(total_response)  
+        total_response["obj"] = obj
+        f = open(os.path.join(p, "data", "8299495.json"), "w")
+        f.write(json.dumps(json_data))
+        f.close()
         return total_response
     
     

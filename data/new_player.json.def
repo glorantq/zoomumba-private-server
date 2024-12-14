@@ -1,5 +1,6 @@
 {
     "zoo_sid": "c4bfdaedff1924abb82465d198914e7d",
+    "next_object_id": 1,
     "pfObj": {
       "1360317": {
         "uId": 8299495,
@@ -82,7 +83,9 @@
       "nDQ": 1606831811,
       "lvlUp": null,
       "entranceFee": 0,
-      "efAdd": 0
+      "efAdd": 0,
+      "tutS": 0,
+      "tutT": 0
     },
     "iObj": {
       "iAn": [],

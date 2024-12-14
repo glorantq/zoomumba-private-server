@@ -8,4 +8,3 @@ def handle_getCv(request, user_id, obj, json_data, config_data):
     cv = json.loads(str(f.read()))
 
     obj["cv"] = cv
-    return obj

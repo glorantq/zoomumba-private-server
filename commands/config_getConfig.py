@@ -9,5 +9,3 @@ def handle_getConfig(request, user_id, obj, json_data, config_data):
     config = json.loads(str(f.read()))
 
     obj["config"] = config
-    obj["sData"] = {"time": str(int(time.time()))}
-    return obj
