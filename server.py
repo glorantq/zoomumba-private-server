@@ -61,6 +61,10 @@ def main():
     
     @app.route('/')
     def homepage():
+        return render_template("home.html", ASSETSIP=assets_ip)
+    
+    @app.route('/game')
+    def gamepage():
         f = open(os.path.join(p, "data", "8299495.json"), "r")
         json_data = json.loads(str(f.read()))
         tutS = json_data["uObj"]["tutS"]
