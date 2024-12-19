@@ -61,7 +61,10 @@ def main():
     
     @app.route('/')
     def homepage():
-        return render_template("home.html", ASSETSIP=assets_ip)
+        locale = request.args.get('locale')
+        if not locale:
+            locale = "en"
+        return render_template("home.html", ASSETSIP=assets_ip, LOCALE=locale)
     
     @app.route('/game')
     def gamepage():
