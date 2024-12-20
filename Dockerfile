@@ -13,7 +13,7 @@ RUN curl -Lo firefox.tar.bz2 \
     https://archive.mozilla.org/pub/firefox/releases/84.0.2/linux-x86_64/en-GB/firefox-84.0.2.tar.bz2
 
 RUN curl -Lo flash.tar.gz \
-    https://archive.org/download/flashplayer_old/flashplayer32_0r0_371_linux.x86_64.tar.gz
+    https://archive.org/download/adobe-flash-player-32.0.0.465-retail-debug/flash_player_npapi_linux_debug.x86_64.tar.gz
 
 RUN tar -xjf firefox.tar.bz2 -C /opt/
 
@@ -55,6 +55,13 @@ ADD ./docker/etc /etc
 ADD --chown=flash:flash . /project
 
 WORKDIR /
+
+# Flash timebomb
+RUN apt-get install -y bbe
+RUN /docker/remove-flash-timebomb.sh /usr/lib/mozilla/plugins/libflashplayer.so
+
+# Flash config
+RUN cp /docker/home/mm.cfg /home/flash/
 
 ENTRYPOINT [ "/bin/tini", "--" ]
 CMD [ "/bin/supervisord", "-c", "/etc/supervisord.conf" ]
