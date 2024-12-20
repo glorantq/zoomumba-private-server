@@ -94,7 +94,6 @@ def handle_fieldFia(request, user_id, obj, json_data, config_data):
             obj["req"] = request["req:"] # typo by bigpoint lol
 
         case ("fAC" | "wAC"): # FEED_ANIMAL_CAGE or WATER_ANIMAL_CAGE
-            print("running")
             current_time = int(time.time())
             species_id = json_data["fObj"]["cages"][str(current_field_id)][str(request["id"])]["sId"]
             config_data_for_species = config_data["gameItems"]["animalsSpecies"][str(species_id)]
