@@ -12,14 +12,16 @@ if __name__ == '__main__':
     print(" [+] Importing libraries...")
     from flask import Flask, render_template, send_from_directory, request, redirect, session, url_for
     import re
-    import random
-    import uuid
+    import secrets
     import time
-    import hashlib
+    import bcrypt
     from pathlib import Path
     import json
     import os
-    from concurrent.futures import ProcessPoolExecutor
+    from pymongo import MongoClient
+    from dotenv import load_dotenv
+
+    registered = 0
 
 def main():
     print(" [+] Loading server...")
@@ -41,6 +43,7 @@ def main():
     #########################
     # Load global game data #
     #########################
+
     print(" [+] Loading init data...")
     
     p = Path(__file__).parents[0]
@@ -54,6 +57,20 @@ def main():
     app = Flask(__name__, template_folder=TEMPLATES_DIR)
     
     print(" [+] Configuring server routes...")
+
+    ######################
+    # Connect to MongoDB #
+    ######################
+
+    load_dotenv()
+    client = MongoClient(os.getenv('MONGO_URI'))
+    db = client["zoo-dev"]
+    auth_db = db["zoo-auth"]
+
+    registered = auth_db.estimated_document_count()
+
+    def get_registered():
+        return registered
     
     ##########
     # ROUTES #
@@ -64,7 +81,108 @@ def main():
         locale = request.args.get('locale')
         if not locale:
             locale = "en"
-        return render_template("home.html", ASSETSIP=assets_ip, LOCALE=locale)
+        session["locale"] = locale
+        action = request.args.get('action')
+        if "msg" not in session:
+            session["msg"] = ""
+        msg = session["msg"]
+        session["msg"] = ""
+        if action == "externalSignUp":
+            return render_template("signup.html", ASSETSIP=assets_ip, SERVERIP=server_ip, LOCALE=locale, msg=msg)
+        else:
+            return render_template("home.html", ASSETSIP=assets_ip, SERVERIP=server_ip, LOCALE=locale, msg=msg, registered=get_registered())
+    
+    @app.route('/authenticate', methods=['POST'])
+    def authenticate():
+        msg = ''
+
+        if 'username' in request.form and 'password' in request.form:
+            username = request.form['username']
+            password = request.form['password']
+            account_in_db = auth_db.find_one({'username': username})
+
+            if account_in_db and bcrypt.checkpw(password.encode('utf-8'), account_in_db["password"].encode('utf-8')):
+                session["username"] = username
+                session["userid"] = account_in_db["id"]
+                session["token"] = secrets.token_urlsafe(32)
+                return redirect("/game")
+            else:
+                msg = "bgc.error.login_invalidCredentials"
+        elif 'username' not in request.form:
+            msg = "bgc.error.username_notGiven"
+        elif 'password' not in request.form:
+            msg = "bgc.error.password_notGiven"
+
+        session["msg"] = msg
+        return redirect("/")
+    
+    @app.route('/register', methods=['POST'])
+    def register():
+        msg = ''
+        if not request.args.get('locale'):
+            if "locale" in session:
+                locale = session["locale"]
+            else:
+                locale = "en"
+        else:
+            locale = request.args.get('locale')
+        
+        username = request.form['username']
+        password = request.form['password']
+        email = request.form['email']
+        termsAndConditions = request.form['termsAndConditions']
+
+        # Check requirements
+        if username == "":
+            msg = "bgc.error.username_notGiven"
+        elif password == "":
+            msg = "bgc.error.password_notGiven"
+        elif email == "":
+            msg = "bgc.error.email_notGiven"
+        elif len(username) < 4:
+            msg = "bgc.error.username_isTooShort"
+        elif len(username) > 20:
+            msg = "bgc.error.username_isTooLong"
+        elif not username.isalnum(): # check for non-alphanumeric characters
+            msg = "bgc.error.username_containsInvalidCharacters"
+        elif len(password) < 4:
+            msg = "bgc.error.password_isTooShort"
+        elif len(password) > 45:
+            msg = "bgc.error.password_isTooLong"
+        elif username == password:
+            msg = "bgc.error.password_matchesUsername"
+        elif re.match(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$', email) is None:
+            msg = "bgc.error.email_invalidAddress"
+        elif termsAndConditions == "0":
+            msg = "bgc.error.termsAndConditions_notAccepted"
+        elif auth_db.find_one({"username": username}):
+            msg = "A user with this name already exists"
+
+        if msg != "":
+            return render_template("signup.html", ASSETSIP=assets_ip, SERVERIP=server_ip, LOCALE=locale, msg=msg)
+
+        password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf8')
+    
+        highest_id = auth_db.find().sort('id', -1).limit(1) # Find highest id in database (hopefully this doesn't eat performance xd)
+        list_highest_id = list(highest_id)
+        print(list_highest_id)
+        if(len(list(list_highest_id)) == 0):
+            # First user
+            id = 1
+        else:
+            id = highest_id[0]["id"] + 1
+        doc_data = {
+            'id': id,
+            'username': username,
+            'password': password,
+            'email': email,
+            'newsletter': "newsletter" in request.form and request.form["newsletter"] == "1", 
+        }
+        auth_db.insert_one(doc_data)
+        global registered
+        registered += 1
+
+        return redirect("/game")
     
     @app.route('/game')
     def gamepage():
