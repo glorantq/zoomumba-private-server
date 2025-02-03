@@ -1,10 +1,10 @@
 {
-    "zoo_sid": "c4bfdaedff1924abb82465d198914e7d",
+    "zoo_sid": "PLACEHOLDER_SID",
     "next_object_id": 1,
     "pfObj": {
-      "1360317": {
-        "uId": 8299495,
-        "fId": 1360317,
+      "01PLACEHOLDER_USERID": {
+        "uId": PLACEHOLDER_USERID,
+        "fId": 01PLACEHOLDER_USERID,
         "fType": 1,
         "fSize": 10,
         "attMax": 4866,
@@ -22,12 +22,12 @@
         "maxVertical": -34
       }
     },
-    "actFId": 1360317,
+    "actFId": 01PLACEHOLDER_USERID,
     "accountCenter": {
       "link": "/?action=internalAccountCenter"
     },
     "fIds": {
-      "1": 1360317
+      "1": 01PLACEHOLDER_USERID
     },
     "swfOpt": {
       "a": 20,
@@ -39,7 +39,7 @@
       "se": 1
     },
     "swfCookies": {
-      "uId": "8299495",
+      "uId": "PLACEHOLDER_USERID",
       "cookies": {
         "dbleXpEvt": {
           "name": "dbleXpEvt",
@@ -68,7 +68,7 @@
       "ajaxFastpay": "/_ajax.php?action=payment&type=fastpay"
     },
     "uObj": {
-      "uId": "8299495",
+      "uId": "PLACEHOLDER_USERID",
       "uName": "Michielvde",
       "uPremium1": 0,
       "uPremium2": 0,
@@ -1246,73 +1246,73 @@
     },
     "alObj": {
       "1": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "1",
         "cnt": 51386,
         "stage": "4"
       },
       "2": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "2",
         "cnt": 566,
         "stage": 4
       },
       "3": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "3",
         "cnt": 503,
         "stage": "4"
       },
       "4": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "4",
         "cnt": 23022463,
         "stage": "4"
       },
       "5": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "5",
         "cnt": 51717,
         "stage": "3"
       },
       "6": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "6",
         "cnt": "405",
         "stage": "4"
       },
       "7": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "7",
         "cnt": 11631,
         "stage": 2
       },
       "8": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "8",
         "cnt": 817919.76,
         "stage": "4"
       },
       "9": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "9",
         "cnt": 13782,
         "stage": "2"
       },
       "10": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "10",
         "cnt": 351863,
         "stage": "4"
       },
       "11": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "11",
         "cnt": 4400,
         "stage": 2
       },
       "12": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "aId": "12",
         "cnt": 589561,
         "stage": "4"
@@ -1379,7 +1379,7 @@
       "daily": {
         "125038441": {
           "qdId": "125038441",
-          "uId": "8299495",
+          "uId": "PLACEHOLDER_USERID",
           "active": "0",
           "done": "0",
           "endTime": "1606831811",
@@ -1418,7 +1418,7 @@
         },
         "125038442": {
           "qdId": "125038442",
-          "uId": "8299495",
+          "uId": "PLACEHOLDER_USERID",
           "active": "0",
           "done": "0",
           "endTime": "1606831811",
@@ -1443,7 +1443,7 @@
         },
         "125038443": {
           "qdId": "125038443",
-          "uId": "8299495",
+          "uId": "PLACEHOLDER_USERID",
           "active": "0",
           "done": "0",
           "endTime": "1606831811",
@@ -1469,7 +1469,7 @@
         },
         "125038444": {
           "qdId": "125038444",
-          "uId": "8299495",
+          "uId": "PLACEHOLDER_USERID",
           "active": "0",
           "done": "0",
           "endTime": "1606831811",
@@ -1494,7 +1494,7 @@
         },
         "125038445": {
           "qdId": "125038445",
-          "uId": "8299495",
+          "uId": "PLACEHOLDER_USERID",
           "active": "0",
           "done": "0",
           "endTime": "1606831811",
@@ -1533,133 +1533,133 @@
     "gObj": [],
     "res": {
       "1": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1,
         "cnt": 25,
         "mCnt": 1250
       },
       "2": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 2,
         "cnt": 25,
         "mCnt": 1000
       },
       "3": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 3,
         "cnt": 25,
         "mCnt": 1000
       },
       "4": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 4,
         "cnt": 25,
         "mCnt": 1000
       },
       "5": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 5,
         "cnt": 25,
         "mCnt": 1000
       },
       "6": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 6,
         "cnt": 25,
         "mCnt": 1000
       },
       "7": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 7,
         "cnt": 25,
         "mCnt": 250
       },
       "8": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 8,
         "cnt": 0,
         "mCnt": 999
       },
       "9": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 9,
         "cnt": 0,
         "mCnt": 999
       },
       "10": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 10,
         "cnt": 0,
         "mCnt": 999
       },
       "11": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 11,
         "cnt": 0,
         "mCnt": 999
       },
       "12": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 12,
         "cnt": 0,
         "mCnt": 999
       },
       "13": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 13,
         "cnt": 2200,
         "mCnt": 2200
       },
       "14": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 14,
         "cnt": 5,
         "mCnt": 250
       },
       "15": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 15,
         "cnt": 5,
         "mCnt": 250
       },
       "16": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 16,
         "cnt": 1000,
         "mCnt": 1000
       },
       "17": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 17,
         "cnt": 916,
         "mCnt": 1000
       },
       "18": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 18,
         "cnt": 1000,
         "mCnt": 1000
       },
       "19": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 19,
         "cnt": 0,
         "mCnt": 1000
       },
       "20": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 20,
         "cnt": 248,
         "mCnt": 250
       },
       "21": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 21,
         "cnt": 0,
         "mCnt": 250
       },
       "22": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 22,
         "cnt": 0,
         "mCnt": 250
@@ -1667,319 +1667,319 @@
     },
     "mat": {
       "1": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1,
         "cnt": 0,
         "mCnt": 250
       },
       "2": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 2,
         "cnt": 0,
         "mCnt": 250
       },
       "3": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 3,
         "cnt": 0,
         "mCnt": 250
       },
       "4": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 4,
         "cnt": 0,
         "mCnt": 250
       },
       "5": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 5,
         "cnt": 0,
         "mCnt": 250
       },
       "6": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 6,
         "cnt": 0,
         "mCnt": 250
       },
       "7": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 7,
         "cnt": 0,
         "mCnt": 250
       },
       "8": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 8,
         "cnt": 0,
         "mCnt": 250
       },
       "9": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 9,
         "cnt": 0,
         "mCnt": 250
       },
       "10": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 10,
         "cnt": 0,
         "mCnt": 250
       },
       "11": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 11,
         "cnt": 0,
         "mCnt": 250
       },
       "12": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 12,
         "cnt": 0,
         "mCnt": 250
       },
       "13": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 13,
         "cnt": 0,
         "mCnt": 250
       },
       "14": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 14,
         "cnt": 0,
         "mCnt": 250
       },
       "15": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 15,
         "cnt": 0,
         "mCnt": 250
       },
       "16": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 16,
         "cnt": 0,
         "mCnt": 250
       },
       "17": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 17,
         "cnt": 0,
         "mCnt": 250
       },
       "18": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 18,
         "cnt": 0,
         "mCnt": 250
       },
       "19": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 19,
         "cnt": 0,
         "mCnt": 250
       },
       "20": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 20,
         "cnt": 0,
         "mCnt": 250
       },
       "21": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 21,
         "cnt": 0,
         "mCnt": 250
       },
       "22": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 22,
         "cnt": 0,
         "mCnt": 250
       },
       "23": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 23,
         "cnt": 0,
         "mCnt": 250
       },
       "24": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 24,
         "cnt": 0,
         "mCnt": 250
       },
       "25": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 25,
         "cnt": 0,
         "mCnt": 250
       },
       "26": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 26,
         "cnt": 0,
         "mCnt": 250
       },
       "27": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 27,
         "cnt": 0,
         "mCnt": 250
       },
       "28": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 28,
         "cnt": 0,
         "mCnt": 250
       },
       "29": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 29,
         "cnt": 0,
         "mCnt": 250
       },
       "30": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 30,
         "cnt": 0,
         "mCnt": 250
       },
       "31": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 31,
         "cnt": 0,
         "mCnt": 250
       },
       "33": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 33,
         "cnt": 0,
         "mCnt": 250
       },
       "34": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 34,
         "cnt": 0,
         "mCnt": 250
       },
       "35": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 35,
         "cnt": 0,
         "mCnt": 250
       },
       "36": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 36,
         "cnt": 0,
         "mCnt": 250
       },
       "37": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 37,
         "cnt": 0,
         "mCnt": 250
       },
       "38": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 38,
         "cnt": 0,
         "mCnt": 250
       },
       "39": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 39,
         "cnt": 0,
         "mCnt": 250
       },
       "40": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 40,
         "cnt": 0,
         "mCnt": 250
       },
       "41": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 41,
         "cnt": 0,
         "mCnt": 250
       },
       "42": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 42,
         "cnt": 0,
         "mCnt": 250
       },
       "43": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 43,
         "cnt": 0,
         "mCnt": 250
       },
       "44": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 44,
         "cnt": 0,
         "mCnt": 250
       },
       "46": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 46,
         "cnt": 0,
         "mCnt": 250
       },
       "47": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 47,
         "cnt": 0,
         "mCnt": 250
       },
       "48": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 48,
         "cnt": 0,
         "mCnt": 250
       },
       "49": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 49,
         "cnt": 0,
         "mCnt": 250
       },
       "50": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 50,
         "cnt": 0,
         "mCnt": 250
       },
       "51": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 51,
         "cnt": 0,
         "mCnt": 250
       },
       "52": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 52,
         "cnt": 0,
         "mCnt": 250
       },
       "53": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 53,
         "cnt": 0,
         "mCnt": 250
       },
       "54": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 54,
         "cnt": 0,
         "mCnt": 250
       },
       "55": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 55,
         "cnt": 0,
         "mCnt": 250
@@ -1987,542 +1987,542 @@
     },
     "bp": {
       "1": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1,
         "active": 1
       },
       "2": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 2,
         "active": 1
       },
       "3": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 3,
         "active": 1
       },
       "6": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 6,
         "active": 1
       },
       "8": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 8,
         "active": 1
       },
       "9": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 9,
         "active": 1
       },
       "10": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 10,
         "active": 1
       },
       "11": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 11,
         "active": 1
       },
       "12": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 12,
         "active": 1
       },
       "14": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 14,
         "active": 1
       },
       "16": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 16,
         "active": 1
       },
       "17": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 17,
         "active": 1
       },
       "20": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 20,
         "active": 1
       },
       "22": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 22,
         "active": 1
       },
       "23": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 23,
         "active": 1
       },
       "24": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 24,
         "active": 1
       },
       "28": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 28,
         "active": 1
       },
       "30": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 30,
         "active": 1
       },
       "31": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 31,
         "active": 1
       },
       "32": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 32,
         "active": 1
       },
       "34": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 34,
         "active": 1
       },
       "36": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 36,
         "active": 1
       },
       "37": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 37,
         "active": 1
       },
       "38": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 38,
         "active": 1
       },
       "41": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 41,
         "active": 1
       },
       "42": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 42,
         "active": 1
       },
       "43": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 43,
         "active": 1
       },
       "44": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 44,
         "active": 1
       },
       "45": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 45,
         "active": 1
       },
       "47": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 47,
         "active": 1
       },
       "48": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 48,
         "active": 1
       },
       "49": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 49,
         "active": 1
       },
       "50": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 50,
         "active": 1
       },
       "51": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 51,
         "active": 1
       },
       "52": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 52,
         "active": 1
       },
       "53": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 53,
         "active": 1
       },
       "54": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 54,
         "active": 1
       },
       "56": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 56,
         "active": 1
       },
       "57": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 57,
         "active": 1
       },
       "58": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 58,
         "active": 1
       },
       "59": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 59,
         "active": 1
       },
       "61": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 61,
         "active": 1
       },
       "62": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 62,
         "active": 1
       },
       "63": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 63,
         "active": 1
       },
       "64": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 64,
         "active": 1
       },
       "67": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 67,
         "active": 1
       },
       "68": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 68,
         "active": 1
       },
       "70": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 70,
         "active": 1
       },
       "71": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 71,
         "active": 1
       },
       "72": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 72,
         "active": 1
       },
       "73": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 73,
         "active": 1
       },
       "74": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 74,
         "active": 1
       },
       "75": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 75,
         "active": 1
       },
       "76": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 76,
         "active": 1
       },
       "80": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 80,
         "active": 1
       },
       "81": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 81,
         "active": 1
       },
       "82": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 82,
         "active": 1
       },
       "83": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 83,
         "active": 1
       },
       "84": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 84,
         "active": 1
       },
       "85": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 85,
         "active": 1
       },
       "91": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 91,
         "active": 1
       },
       "97": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 97,
         "active": 1
       },
       "98": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 98,
         "active": 1
       },
       "99": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 99,
         "active": 1
       },
       "100": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 100,
         "active": 1
       },
       "101": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 101,
         "active": 1
       },
       "103": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 103,
         "active": 1
       },
       "109": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 109,
         "active": 1
       },
       "133": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 133,
         "active": 1
       },
       "134": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 134,
         "active": 1
       },
       "135": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 135,
         "active": 1
       },
       "136": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 136,
         "active": 1
       },
       "137": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 137,
         "active": 1
       },
       "142": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 142,
         "active": 1
       },
       "143": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 143,
         "active": 1
       },
       "144": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 144,
         "active": 1
       },
       "145": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 145,
         "active": 1
       },
       "149": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 149,
         "active": 1
       },
       "153": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 153,
         "active": 1
       },
       "156": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 156,
         "active": 1
       },
       "158": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 158,
         "active": 1
       },
       "159": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 159,
         "active": 1
       },
       "500": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 500,
         "active": 1
       },
       "501": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 501,
         "active": 1
       },
       "502": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 502,
         "active": 1
       },
       "504": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 504,
         "active": 1
       },
       "507": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 507,
         "active": 1
       },
       "600": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 600,
         "active": 1
       },
       "601": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 601,
         "active": 1
       },
       "602": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 602,
         "active": 1
       },
       "605": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 605,
         "active": 1
       },
       "606": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 606,
         "active": 1
       },
       "608": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 608,
         "active": 1
       },
       "611": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 611,
         "active": 1
       },
       "612": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 612,
         "active": 1
       },
       "620": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 620,
         "active": 1
       },
       "623": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 623,
         "active": 1
       },
       "700": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 700,
         "active": 1
       },
       "1001": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1001,
         "active": 1
       },
       "1002": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1002,
         "active": 1
       },
       "1003": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1003,
         "active": 1
       },
       "1004": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1004,
         "active": 1
       },
       "1005": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1005,
         "active": 1
       },
       "1006": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1006,
         "active": 1
       },
       "1007": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1007,
         "active": 1
       },
       "1008": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1008,
         "active": 1
       },
       "1009": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1009,
         "active": 1
       },
       "1011": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1011,
         "active": 1
       }
@@ -2531,7 +2531,7 @@
       "0": [
         {}
       ],
-      "1360317": {}
+      "01PLACEHOLDER_USERID": {}
     },
     "events": {
       "49": {
@@ -2560,31 +2560,31 @@
     "pwrUp": [],
     "ebObj": {
       "1": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "bId": "1"
       },
       "2": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "bId": "2"
       },
       "3": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "bId": 3
       },
       "4": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "bId": "4"
       },
       "5": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "bId": "5"
       },
       "6": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "bId": "6"
       },
       "8": {
-        "uId": "8299495",
+        "uId": "PLACEHOLDER_USERID",
         "bId": "8"
       }
     },
@@ -2595,7 +2595,7 @@
     "uFs": [],
     "uFrI": [],
     "ava": {
-      "uId": 8299495,
+      "uId": PLACEHOLDER_USERID,
       "ge": 0,
       "fa": 5,
       "ha": 6,
@@ -2607,1333 +2607,1333 @@
     },
     "lObj": [],
     "cinema": {
-      "uId": 8299495,
+      "uId": PLACEHOLDER_USERID,
       "tickets": 3,
       "dailyUpdate": 1606735984
     },
     "collItems": {
       "1": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 1,
         "cnt": 0
       },
       "3": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 3,
         "cnt": 152
       },
       "4": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 4,
         "cnt": 175
       },
       "5": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 5,
         "cnt": 168
       },
       "6": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 6,
         "cnt": 198
       },
       "7": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 7,
         "cnt": 0
       },
       "8": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 8,
         "cnt": 3
       },
       "9": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 9,
         "cnt": 3
       },
       "10": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 10,
         "cnt": 3
       },
       "11": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 11,
         "cnt": 4
       },
       "18": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 18,
         "cnt": 50
       },
       "19": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 19,
         "cnt": 69
       },
       "20": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 20,
         "cnt": 62
       },
       "21": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 21,
         "cnt": 72
       },
       "22": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 22,
         "cnt": 0
       },
       "23": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 23,
         "cnt": 3
       },
       "24": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 24,
         "cnt": 8
       },
       "25": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 25,
         "cnt": 5
       },
       "26": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 26,
         "cnt": 7
       },
       "27": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 27,
         "cnt": 0
       },
       "28": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 28,
         "cnt": 2
       },
       "29": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 29,
         "cnt": 1
       },
       "30": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 30,
         "cnt": 2
       },
       "31": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 31,
         "cnt": 2
       },
       "38": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 38,
         "cnt": 1
       },
       "39": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 39,
         "cnt": 2
       },
       "40": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 40,
         "cnt": 5
       },
       "41": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 41,
         "cnt": 2
       },
       "43": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 43,
         "cnt": 12
       },
       "44": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 44,
         "cnt": 16
       },
       "45": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 45,
         "cnt": 11
       },
       "46": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 46,
         "cnt": 9
       },
       "47": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 47,
         "cnt": 0
       },
       "48": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 48,
         "cnt": 7
       },
       "49": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 49,
         "cnt": 4
       },
       "51": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 51,
         "cnt": 4
       },
       "53": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 53,
         "cnt": 1
       },
       "54": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 54,
         "cnt": 1
       },
       "56": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 56,
         "cnt": 2
       },
       "59": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 59,
         "cnt": 3
       },
       "61": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 61,
         "cnt": 1
       },
       "63": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 63,
         "cnt": 1
       },
       "64": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 64,
         "cnt": 1
       },
       "65": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 65,
         "cnt": 1
       },
       "66": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 66,
         "cnt": 1
       },
       "67": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 67,
         "cnt": 0
       },
       "68": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 68,
         "cnt": 1
       },
       "69": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 69,
         "cnt": 4
       },
       "70": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 70,
         "cnt": 4
       },
       "71": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 71,
         "cnt": 0
       },
       "72": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 72,
         "cnt": 0
       },
       "73": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 73,
         "cnt": 5
       },
       "74": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 74,
         "cnt": 8
       },
       "75": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 75,
         "cnt": 2
       },
       "76": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 76,
         "cnt": 2
       },
       "77": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 77,
         "cnt": 0
       },
       "78": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 78,
         "cnt": 1
       },
       "79": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 79,
         "cnt": 1
       },
       "80": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 80,
         "cnt": 1
       },
       "81": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 81,
         "cnt": 1
       },
       "88": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 88,
         "cnt": 225
       },
       "89": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 89,
         "cnt": 219
       },
       "90": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 90,
         "cnt": 196
       },
       "91": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 91,
         "cnt": 192
       },
       "92": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 92,
         "cnt": 0
       },
       "108": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 108,
         "cnt": 2
       },
       "109": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 109,
         "cnt": 0
       },
       "110": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 110,
         "cnt": 0
       },
       "111": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 111,
         "cnt": 5
       },
       "112": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 112,
         "cnt": 1
       },
       "113": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 113,
         "cnt": 5
       },
       "114": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 114,
         "cnt": 1
       },
       "115": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 115,
         "cnt": 1
       },
       "116": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 116,
         "cnt": 1
       },
       "117": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 117,
         "cnt": 0
       },
       "124": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 124,
         "cnt": 28
       },
       "135": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 135,
         "cnt": 1
       },
       "138": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 138,
         "cnt": 2
       },
       "160": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 160,
         "cnt": 1
       },
       "164": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 164,
         "cnt": 0
       },
       "165": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 165,
         "cnt": 0
       },
       "166": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 166,
         "cnt": 0
       },
       "167": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 167,
         "cnt": 0
       },
       "168": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 168,
         "cnt": 0
       },
       "182": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 182,
         "cnt": 5
       },
       "183": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 183,
         "cnt": 1
       },
       "205": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 205,
         "cnt": 0
       },
       "206": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 206,
         "cnt": 2
       },
       "207": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 207,
         "cnt": 9
       },
       "208": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 208,
         "cnt": 6
       },
       "209": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 209,
         "cnt": 0
       },
       "243": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 243,
         "cnt": 8
       },
       "244": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 244,
         "cnt": 2
       },
       "245": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 245,
         "cnt": 10
       },
       "246": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 246,
         "cnt": 5
       },
       "253": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 253,
         "cnt": 19
       },
       "284": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 284,
         "cnt": 18
       },
       "285": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 285,
         "cnt": 16
       },
       "286": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 286,
         "cnt": 17
       },
       "287": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 287,
         "cnt": 20
       },
       "288": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 288,
         "cnt": 0
       },
       "289": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 289,
         "cnt": 16
       },
       "290": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 290,
         "cnt": 18
       },
       "291": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 291,
         "cnt": 18
       },
       "292": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 292,
         "cnt": 23
       },
       "293": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 293,
         "cnt": 0
       },
       "294": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 294,
         "cnt": 95
       },
       "305": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 305,
         "cnt": 102
       },
       "306": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 306,
         "cnt": 12
       },
       "307": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 307,
         "cnt": 52
       },
       "320": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 320,
         "cnt": 8
       },
       "321": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 321,
         "cnt": 2
       },
       "322": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 322,
         "cnt": 0
       },
       "323": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 323,
         "cnt": 5
       },
       "324": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 324,
         "cnt": 1
       },
       "335": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 335,
         "cnt": 1
       },
       "336": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 336,
         "cnt": 9
       },
       "337": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 337,
         "cnt": 5
       },
       "398": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 398,
         "cnt": 2
       },
       "399": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 399,
         "cnt": 20
       },
       "400": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 400,
         "cnt": 0
       },
       "411": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 411,
         "cnt": 6050
       },
       "412": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 412,
         "cnt": 0
       },
       "413": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 413,
         "cnt": 43
       },
       "414": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 414,
         "cnt": 36
       },
       "415": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 415,
         "cnt": 43
       },
       "416": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 416,
         "cnt": 31
       },
       "417": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 417,
         "cnt": 0
       },
       "423": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 423,
         "cnt": 20
       },
       "424": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 424,
         "cnt": 39
       },
       "425": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 425,
         "cnt": 18
       },
       "426": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 426,
         "cnt": 3
       },
       "427": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 427,
         "cnt": 6
       },
       "428": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 428,
         "cnt": 11
       },
       "429": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 429,
         "cnt": 3
       },
       "430": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 430,
         "cnt": 0
       },
       "431": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 431,
         "cnt": 6
       },
       "432": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 432,
         "cnt": 5
       },
       "433": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 433,
         "cnt": 5
       },
       "434": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 434,
         "cnt": 7
       },
       "435": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 435,
         "cnt": 0
       },
       "436": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 436,
         "cnt": 2
       },
       "446": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 446,
         "cnt": 3
       },
       "447": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 447,
         "cnt": 0
       },
       "448": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 448,
         "cnt": 0
       },
       "449": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 449,
         "cnt": 0
       },
       "450": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 450,
         "cnt": 1
       },
       "451": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 451,
         "cnt": 1
       },
       "452": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 452,
         "cnt": 2
       },
       "454": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 454,
         "cnt": 1
       },
       "460": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 460,
         "cnt": 110
       },
       "461": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 461,
         "cnt": 20
       },
       "462": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 462,
         "cnt": 0
       },
       "473": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 473,
         "cnt": 3
       },
       "474": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 474,
         "cnt": 18
       },
       "475": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 475,
         "cnt": 29
       },
       "481": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 481,
         "cnt": 7
       },
       "482": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 482,
         "cnt": 9
       },
       "483": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 483,
         "cnt": 5
       },
       "484": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 484,
         "cnt": 12
       },
       "486": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 486,
         "cnt": 6
       },
       "487": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 487,
         "cnt": 6
       },
       "488": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 488,
         "cnt": 7
       },
       "489": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 489,
         "cnt": 8
       },
       "490": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 490,
         "cnt": 0
       },
       "504": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 504,
         "cnt": 7
       },
       "505": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 505,
         "cnt": 5
       },
       "506": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 506,
         "cnt": 5
       },
       "507": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 507,
         "cnt": 10
       },
       "509": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 509,
         "cnt": 6
       },
       "510": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 510,
         "cnt": 15
       },
       "511": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 511,
         "cnt": 19
       },
       "527": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 527,
         "cnt": 2
       },
       "528": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 528,
         "cnt": 15
       },
       "529": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 529,
         "cnt": 13
       },
       "555": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 555,
         "cnt": 5
       },
       "556": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 556,
         "cnt": 5
       },
       "557": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 557,
         "cnt": 5
       },
       "588": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 588,
         "cnt": 2
       },
       "589": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 589,
         "cnt": 2
       },
       "591": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 591,
         "cnt": 2
       },
       "592": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 592,
         "cnt": 2
       },
       "593": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 593,
         "cnt": 0
       },
       "594": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 594,
         "cnt": 0
       },
       "595": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 595,
         "cnt": 2
       },
       "596": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 596,
         "cnt": 0
       },
       "597": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 597,
         "cnt": 0
       },
       "598": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 598,
         "cnt": 3
       },
       "599": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 599,
         "cnt": 1
       },
       "600": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 600,
         "cnt": 2
       },
       "601": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 601,
         "cnt": 3
       },
       "602": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 602,
         "cnt": 0
       },
       "608": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 608,
         "cnt": 6
       },
       "609": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 609,
         "cnt": 5
       },
       "610": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 610,
         "cnt": 3
       },
       "611": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 611,
         "cnt": 5
       },
       "612": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 612,
         "cnt": 0
       },
       "613": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 613,
         "cnt": 10
       },
       "614": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 614,
         "cnt": 18
       },
       "615": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 615,
         "cnt": 3
       },
       "616": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 616,
         "cnt": 10
       },
       "617": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 617,
         "cnt": 0
       },
       "623": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 623,
         "cnt": 1
       },
       "624": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 624,
         "cnt": 0
       },
       "625": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 625,
         "cnt": 4
       },
       "626": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 626,
         "cnt": 1
       },
       "627": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 627,
         "cnt": 0
       },
       "628": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 628,
         "cnt": 0
       },
       "629": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 629,
         "cnt": 1
       },
       "630": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 630,
         "cnt": 1
       },
       "631": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 631,
         "cnt": 1
       },
       "632": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 632,
         "cnt": 2
       },
       "639": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 639,
         "cnt": 3
       },
       "640": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 640,
         "cnt": 3
       },
       "642": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 642,
         "cnt": 2
       },
       "643": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 643,
         "cnt": 1
       },
       "644": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 644,
         "cnt": 6
       },
       "655": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 655,
         "cnt": 10
       },
       "656": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 656,
         "cnt": 11
       },
       "657": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 657,
         "cnt": 3
       },
       "668": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 668,
         "cnt": 0
       },
       "669": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 669,
         "cnt": 12
       },
       "670": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 670,
         "cnt": 7
       },
       "729": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 729,
         "cnt": 8
       },
       "730": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 730,
         "cnt": 9
       },
       "731": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 731,
         "cnt": 3
       },
       "747": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 747,
         "cnt": 5
       },
       "748": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 748,
         "cnt": 4
       },
       "749": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 749,
         "cnt": 0
       },
       "780": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 780,
         "cnt": 1
       },
       "781": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 781,
         "cnt": 1
       },
       "782": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 782,
         "cnt": 1
       },
       "783": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 783,
         "cnt": 47
       },
       "830": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 830,
         "cnt": 4
       },
       "831": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 831,
         "cnt": 5
       },
       "832": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 832,
         "cnt": 4
       },
       "883": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 883,
         "cnt": 3
       },
       "884": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 884,
         "cnt": 6
       },
       "885": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 885,
         "cnt": 1
       },
       "886": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 886,
         "cnt": 2
       },
       "908": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 908,
         "cnt": 1
       },
       "909": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 909,
         "cnt": 1
       },
       "910": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 910,
         "cnt": 3
       },
       "911": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 911,
         "cnt": 1
       },
       "945": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 945,
         "cnt": 6
       },
       "946": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 946,
         "cnt": 6
       },
       "947": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 947,
         "cnt": 7
       },
       "954": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 954,
         "cnt": 2
       },
       "956": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 956,
         "cnt": 2
       },
       "968": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 968,
         "cnt": 15
       },
       "969": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 969,
         "cnt": 1
       },
       "970": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 970,
         "cnt": 79
       },
       "971": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 971,
         "cnt": 2
       },
       "972": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 972,
         "cnt": 2
       },
       "973": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 973,
         "cnt": 6
       },
       "974": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 974,
         "cnt": 3
       },
       "975": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 975,
         "cnt": 0
       },
       "976": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 976,
         "cnt": 6
       },
       "977": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 977,
         "cnt": 4
       },
       "978": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 978,
         "cnt": 6
       },
       "10000": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 10000,
         "cnt": 3
       },
       "10001": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 10001,
         "cnt": 4
       },
       "10002": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 10002,
         "cnt": 2
       },
       "10003": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 10003,
         "cnt": 6
       },
       "10006": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "id": 10006,
         "cnt": 41
       }
@@ -3996,13 +3996,13 @@
     "fObj": {
       "stores": {
         "0": {},
-        "1360317": {}
+        "01PLACEHOLDER_USERID": {}
       },
       "specials": [
         {
           "163189": {
             "id": 163189,
-            "uId": 8299495,
+            "uId": PLACEHOLDER_USERID,
             "fId": 0,
             "sbId": 2,
             "act": 0,
@@ -4025,7 +4025,7 @@
           },
           "164826": {
             "id": 164826,
-            "uId": 8299495,
+            "uId": PLACEHOLDER_USERID,
             "fId": 0,
             "sbId": 1,
             "act": 0,
@@ -4049,25 +4049,25 @@
         }
       ],
       "cages": {
-        "1360317": {}
+        "01PLACEHOLDER_USERID": {}
       },
       "roads": {
         "0": {},
-        "1360317": {}
+        "01PLACEHOLDER_USERID": {}
       },
       "decos": {
         "0": {},
-        "1360317": {}
+        "01PLACEHOLDER_USERID": {}
       },
       "trashbins": {
         "0": {},
-        "1360317": {}
+        "01PLACEHOLDER_USERID": {}
       }
     },
     "init": "",
     "recyclingSlots": {
       "1": {
-        "uId": 8299495,
+        "uId": PLACEHOLDER_USERID,
         "slotId": 1,
         "materialId": 25,
         "amount": 5,

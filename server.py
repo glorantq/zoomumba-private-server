@@ -1,16 +1,17 @@
 if __name__ == '__main__':
-      
+
     #######################
     # Import server stuff #
     #######################
     from bundle import TEMPLATES_DIR, STUB_DIR, STYLES_DIR, ASSETS_DIR
     from commands import *
+    import utils.userUtils as userUtils
     
     ##########################
     # Import 3rd party stuff #
     ##########################
     print(" [+] Importing libraries...")
-    from flask import Flask, render_template, send_from_directory, request, redirect, session, url_for
+    from flask import Flask, render_template, send_from_directory, request, redirect, session
     import re
     import secrets
     import time
@@ -20,8 +21,6 @@ if __name__ == '__main__':
     import os
     from pymongo import MongoClient
     from dotenv import load_dotenv
-
-    registered = 0
 
 def main():
     print(" [+] Loading server...")
@@ -66,11 +65,9 @@ def main():
     client = MongoClient(os.getenv('MONGO_URI'))
     db = client["zoo-dev"]
     auth_db = db["zoo-auth"]
+    data_db = db["zoo-data"]
 
-    registered = auth_db.estimated_document_count()
-
-    def get_registered():
-        return registered
+    userUtils.set_total_user_count(auth_db.estimated_document_count())
     
     ##########
     # ROUTES #
@@ -90,7 +87,7 @@ def main():
         if action == "externalSignUp":
             return render_template("signup.html", ASSETSIP=assets_ip, SERVERIP=server_ip, LOCALE=locale, msg=msg)
         else:
-            return render_template("home.html", ASSETSIP=assets_ip, SERVERIP=server_ip, LOCALE=locale, msg=msg, registered=get_registered())
+            return render_template("home.html", ASSETSIP=assets_ip, SERVERIP=server_ip, LOCALE=locale, msg=msg, registered=userUtils.get_total_user_count())
     
     @app.route('/authenticate', methods=['POST'])
     def authenticate():
@@ -166,28 +163,63 @@ def main():
         highest_id = auth_db.find().sort('id', -1).limit(1) # Find highest id in database (hopefully this doesn't eat performance xd)
         list_highest_id = list(highest_id)
         print(list_highest_id)
-        if(len(list(list_highest_id)) == 0):
+        if(len(list(highest_id)) == 0):
             # First user
             id = 1
         else:
-            id = highest_id[0]["id"] + 1
+            id = list(highest_id)[0]["id"] + 1
+
+        secret_id = secrets.token_urlsafe(32)
+        if auth_db.find_one({"sid": secret_id}): # Useless check but you never know xD
+            secret_id = secrets.token_urlsafe(32)
+
         doc_data = {
-            'id': id,
-            'username': username,
-            'password': password,
-            'email': email,
-            'newsletter': "newsletter" in request.form and request.form["newsletter"] == "1", 
+            "id": id,
+            "sid": secret_id,
+            "username": username,
+            "password": password,
+            "email": email,
+            "newsletter": "newsletter" in request.form and request.form["newsletter"] == "1", 
         }
-        auth_db.insert_one(doc_data)
-        global registered
-        registered += 1
+        #auth_db.insert_one(doc_data)
+
+        f = open(os.path.join(p, "data", "new_player.json.def"), "r")
+        new_player_data = f.read()
+        f.close()
+
+        new_player_data = new_player_data.replace("PLACEHOLDER_USERID", str(id))
+        new_player_data = new_player_data.replace("PLACEHOLDER_SID", secret_id)
+        print(new_player_data[0:300])
+        print(fr'{new_player_data[0:300]}')
+
+        # NOTE:
+        # We handle field ids different than the original game, instead of a random (probably global) number we do
+        # fId = fType (with leading 0 if needed) + userid
+        # For example: 018299495 for field type 1 with userid 8299495
+
+        token = secrets.token_urlsafe(32)
+        session["token"] = token
+        session["username"] = username
+        session["userid"] = id
+
+        doc_data = {
+            "id": id,
+            "sid": secret_id,
+            "username": username,
+            "token": token,
+            "zoo": json.loads(fr'{new_player_data}')
+        }
+        data_db.insert_one(doc_data)
+
+        userUtils.set_total_user_count(userUtils.get_total_user_count() + 1)
 
         return redirect("/game")
     
-    @app.route('/game')
+    @app.route("/game")
     def gamepage():
-        f = open(os.path.join(p, "data", "8299495.json"), "r")
-        json_data = json.loads(str(f.read()))
+        if "userid" not in session:
+            return redirect("/")
+        json_data = json.loads(userUtils.get_zoo_from_db_by_userid(data_db, session["userid"])["zoo"])
         tutS = json_data["uObj"]["tutS"]
         tutT = json_data["uObj"]["tutT"]
         return render_template("play.html", tutS=tutS, tutT=tutT)
