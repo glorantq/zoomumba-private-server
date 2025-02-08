@@ -1,26 +1,26 @@
-if __name__ == '__main__':
+#######################
+# Import server stuff #
+#######################
+from bundle import TEMPLATES_DIR, STUB_DIR, STYLES_DIR, ASSETS_DIR
+from commands import *
+import utils.userUtils as userUtils
+import utils.attractionUtils as attractionUtils
 
-    #######################
-    # Import server stuff #
-    #######################
-    from bundle import TEMPLATES_DIR, STUB_DIR, STYLES_DIR, ASSETS_DIR
-    from commands import *
-    import utils.userUtils as userUtils
-    
-    ##########################
-    # Import 3rd party stuff #
-    ##########################
-    print(" [+] Importing libraries...")
-    from flask import Flask, render_template, send_from_directory, request, redirect, session
-    import re
-    import secrets
-    import time
-    import bcrypt
-    from pathlib import Path
-    import json
-    import os
-    from pymongo import MongoClient
-    from dotenv import load_dotenv
+##########################
+# Import 3rd party stuff #
+##########################
+print(" [+] Importing libraries...")
+from flask import Flask, render_template, send_from_directory, request, redirect, session
+import re
+import secrets
+import time
+import bcrypt
+from pathlib import Path
+import json
+import os
+from pymongo import MongoClient
+from dotenv import load_dotenv
+import copy
 
 def main():
     print(" [+] Loading server...")
@@ -36,7 +36,8 @@ def main():
         "swfCookie.set": handle_swfCookieSet,
         "tutorial.rS": handle_tutorialRs,
         "field.fia": handle_fieldFia,
-        "gameitems.get": handle_gameitemsGet
+        "gameitems.get": handle_gameitemsGet,
+        "swfOpt.set": handle_swfOptSet
     }
     
     #########################
@@ -54,12 +55,12 @@ def main():
     assets_ip = "http://" + str(host) + ":" + str(port)
     
     app = Flask(__name__, template_folder=TEMPLATES_DIR)
-    
-    print(" [+] Configuring server routes...")
 
     ######################
     # Connect to MongoDB #
     ######################
+
+    print(" [+] Connecting to database...")
 
     load_dotenv()
     client = MongoClient(os.getenv('MONGO_URI'))
@@ -72,6 +73,8 @@ def main():
     ##########
     # ROUTES #
     ##########
+
+    print(" [+] Configuring server routes...")
     
     @app.route('/')
     def homepage():
@@ -102,6 +105,7 @@ def main():
                 session["username"] = username
                 session["userid"] = account_in_db["id"]
                 session["token"] = secrets.token_urlsafe(32)
+                data_db.update_one({"id": int(account_in_db["id"])}, {"$set": {"token": session["token"]}})
                 return redirect("/game")
             else:
                 msg = "bgc.error.login_invalidCredentials"
@@ -163,11 +167,11 @@ def main():
         highest_id = auth_db.find().sort('id', -1).limit(1) # Find highest id in database (hopefully this doesn't eat performance xd)
         list_highest_id = list(highest_id)
         print(list_highest_id)
-        if(len(list(highest_id)) == 0):
+        if(len(list_highest_id) == 0):
             # First user
             id = 1
         else:
-            id = list(highest_id)[0]["id"] + 1
+            id = list_highest_id[0]["id"] + 1
 
         secret_id = secrets.token_urlsafe(32)
         if auth_db.find_one({"sid": secret_id}): # Useless check but you never know xD
@@ -181,16 +185,15 @@ def main():
             "email": email,
             "newsletter": "newsletter" in request.form and request.form["newsletter"] == "1", 
         }
-        #auth_db.insert_one(doc_data)
+        auth_db.insert_one(doc_data)
 
         f = open(os.path.join(p, "data", "new_player.json.def"), "r")
-        new_player_data = f.read()
+        new_player_data = json.loads(str(f.read()))
         f.close()
 
-        new_player_data = new_player_data.replace("PLACEHOLDER_USERID", str(id))
-        new_player_data = new_player_data.replace("PLACEHOLDER_SID", secret_id)
-        print(new_player_data[0:300])
-        print(fr'{new_player_data[0:300]}')
+        new_player_data = userUtils.replace_placeholders(new_player_data, "PLACEHOLDER_USERID", str(id))
+        new_player_data = userUtils.replace_placeholders(new_player_data, "01PLACEHOLDER_USERID", "01" + str(id))
+        new_player_data = userUtils.replace_placeholders(new_player_data, "PLACEHOLDER_SID", secret_id)
 
         # NOTE:
         # We handle field ids different than the original game, instead of a random (probably global) number we do
@@ -207,7 +210,7 @@ def main():
             "sid": secret_id,
             "username": username,
             "token": token,
-            "zoo": json.loads(fr'{new_player_data}')
+            "zoo": new_player_data
         }
         data_db.insert_one(doc_data)
 
@@ -219,10 +222,11 @@ def main():
     def gamepage():
         if "userid" not in session:
             return redirect("/")
-        json_data = json.loads(userUtils.get_zoo_from_db_by_userid(data_db, session["userid"])["zoo"])
-        tutS = json_data["uObj"]["tutS"]
-        tutT = json_data["uObj"]["tutT"]
-        return render_template("play.html", tutS=tutS, tutT=tutT)
+        json_data = userUtils.get_zoo_from_db_by_userid(data_db, session["userid"])
+        tutS = json_data["zoo"]["uObj"]["tutS"]
+        tutT = json_data["zoo"]["uObj"]["tutT"]
+        token = json_data["token"]
+        return render_template("play.html", tutS=tutS, tutT=tutT, userid=session["userid"], token=token)
     
     @app.route("/crossdomain.xml")
     def crossdomain():
@@ -254,23 +258,48 @@ def main():
         total_response["callstack"] = [[]]
         obj = {}
 
+        # Load from database
+        all_data = userUtils.get_zoo_from_db_by_userid(data_db, int(request.args["uId"]))
+        json_data = all_data["zoo"]
+        initial_json_data = copy.deepcopy(json_data) # Make a copy so we can compare differences later (probably not very efficient but should do for now)
+
+        # Send secret id
         if "sid" in request.form:
             obj["zoo_sid"] = request.form["sid"]
         else:
-            obj["zoo_sid"] = "test"
+            obj["zoo_sid"] = json_data["zoo_sid"]
 
+        # Send server time
         if "sData" not in obj:
             obj["sData"] = {}
         obj["sData"]["time"] = int(time.time())
 
-        f = open(os.path.join(p, "data", "8299495.json"), "r")
-        json_data = json.loads(str(f.read()))
-        f.close()
-
+        # Load config (this probably should be saved in a variable but that's for later xD)
         f = open(os.path.join(p, "data", "global_config_data.json.def"), "r")
         config_data = json.loads(str(f.read()))
         f.close()
 
+        # Check if token is correct
+        if session["token"] != all_data["token"]:
+            print("Wrong token")
+            return
+        
+        # Add entrance fee for current field
+        current_field_id = json_data["uObj"]["current_field"]
+        entrance_fee_per_second = attractionUtils.calculate_entrance_fee_per_hour(json_data, config_data, current_field_id) / 3600
+        print(f"Entrance fee per second = {entrance_fee_per_second}")
+        time_since_last_push = obj["sData"]["time"] - json_data["pfObj"][current_field_id]["lastPush"]
+        print(f"Time since last push = {time_since_last_push}")
+        entrance_fee_gained = entrance_fee_per_second * time_since_last_push
+        print(f"Entrance fee gained = {entrance_fee_gained}")
+
+        json_data["uObj"]["entranceFee"] += round(entrance_fee_gained)
+        entrance_fee_limit = attractionUtils.calculate_entrance_fee_limit(json_data)
+        print(f"Entrance fee limit = {entrance_fee_limit}")
+        if json_data["uObj"]["entranceFee"] > entrance_fee_limit:
+            json_data["uObj"]["entranceFee"] = entrance_fee_limit
+
+        # Handle commands
         callstack = json.loads(request.form["json"])["callstack"]
         for i in callstack:
             command = list(i.keys())[0]
@@ -283,9 +312,14 @@ def main():
                 print("Command " + command + " not handled")
 
         total_response["obj"] = obj
-        f = open(os.path.join(p, "data", "8299495.json"), "w")
-        f.write(json.dumps(json_data))
-        f.close()
+
+        # Save last push time
+        json_data["pfObj"][current_field_id]["lastPush"] = obj["sData"]["time"]
+
+        # Save to database
+        added, removed, modified = userUtils.get_differences(initial_json_data, json_data)
+        userUtils.save_zoo(data_db, int(request.args["uId"]), added, removed, modified)
+
         return total_response
     
     

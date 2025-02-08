@@ -1,4081 +1,4133 @@
 {
-    "zoo_sid": "PLACEHOLDER_SID",
-    "next_object_id": 1,
-    "pfObj": {
-      "01PLACEHOLDER_USERID": {
-        "uId": PLACEHOLDER_USERID,
-        "fId": 01PLACEHOLDER_USERID,
-        "fType": 1,
-        "fSize": 10,
-        "attMax": 4866,
-        "att": 2460,
-        "attStatic": 268,
-        "trashbins": 0,
-        "trashroads": 0,
-        "lastPush": 1606770288,
-        "eBuildingId": 1,
-        "zooGatePosX": 31,
-        "zooGatePosY": 89,
-        "minHorizontal": 94,
-        "maxHorizontal": 116,
-        "minVertical": -56,
-        "maxVertical": -34
-      }
-    },
-    "actFId": 01PLACEHOLDER_USERID,
-    "accountCenter": {
-      "link": "/?action=internalAccountCenter"
-    },
-    "fIds": {
-      "1": 01PLACEHOLDER_USERID
-    },
-    "swfOpt": {
-      "a": 20,
-      "v": 0,
-      "sb": 1,
-      "w": 0,
-      "t": 0,
-      "q": "h",
-      "se": 1
-    },
-    "swfCookies": {
+  "zoo_sid": "PLACEHOLDER_SID",
+  "next_object_id": 107,
+  "pfObj": {
+    "01PLACEHOLDER_USERID": {
       "uId": "PLACEHOLDER_USERID",
-      "cookies": {
-        "dbleXpEvt": {
-          "name": "dbleXpEvt",
-          "timestamp": 0
-        },
-        "hh": {
-          "name": "hh",
-          "timestamp": 0
-        },
-        "nisEvt": {
-          "name": "nisEvt",
-          "timestamp": 0
-        }
+      "fId": "01PLACEHOLDER_USERID",
+      "fType": 1,
+      "fSize": 10,
+      "attMax": 4866,
+      "att": 2460,
+      "attStatic": 268,
+      "trashbins": 0,
+      "trashroads": 0,
+      "lastPush": 1606770288,
+      "eBuildingId": 1,
+      "zooGatePosX": 31,
+      "zooGatePosY": 89,
+      "minHorizontal": 94,
+      "maxHorizontal": 116,
+      "minVertical": -56,
+      "maxVertical": -34
+    }
+  },
+  "actFId": "01PLACEHOLDER_USERID",
+  "accountCenter": {
+    "link": "/?action=internalAccountCenter"
+  },
+  "fIds": {
+    "1": "01PLACEHOLDER_USERID"
+  },
+  "swfOpt": {
+    "a": 20,
+    "v": 1,
+    "sb": 1,
+    "w": 1,
+    "t": 1,
+    "q": "h",
+    "se": 1
+  },
+  "swfCookies": {
+    "uId": "PLACEHOLDER_USERID",
+    "cookies": {
+      "dbleXpEvt": {
+        "name": "dbleXpEvt",
+        "timestamp": 0
+      },
+      "hh": {
+        "name": "hh",
+        "timestamp": 0
+      },
+      "nisEvt": {
+        "name": "nisEvt",
+        "timestamp": 0
       }
-    },
-    "sData": {
-      "time": 1606770288,
-      "urlPay": "/_ajax.php?action=payment&type=urlPay",
-      "ajaxPay": "/_ajax.php?action=payment",
-      "urlPrem": "/_ajax.php?action=payment&type=prem",
-      "urlStart": "/_ajax.php?action=payment&type=start",
-      "ajaxStart": "/_ajax.php?action=payment&type=start7",
-      "ajaxPrem": "/_ajax.php?action=payment&type=prem",
-      "urlCash": "/_ajax.php?action=cashforaction",
-      "ajaxCinema": "/_ajax.php?action=cinema",
-      "ajaxFastpay": "/_ajax.php?action=payment&type=fastpay"
-    },
-    "uObj": {
-      "uId": "PLACEHOLDER_USERID",
-      "uName": "Michielvde",
-      "uPremium1": 0,
-      "uPremium2": 0,
-      "uCv": 5000,
-      "uCr": 25,
-      "pPaw": 0,
-      "pearls": 0,
-      "uEp": 0,
-      "uLvl": 1,
-      "uTut": 0,
-      "uMode": "RUN",
-      "nDQ": 1606831811,
-      "lvlUp": null,
-      "entranceFee": 0,
-      "efAdd": 0,
-      "tutS": 0,
-      "tutT": 0
-    },
-    "iObj": {
-      "iAn": [],
-      "iCa": [],
-      "iDe": [],
-      "iRo": [],
-      "iSt": []
-    },
-    "managementCenterConfig": {
-      "post": {
-        "buyable": 0,
-        "userLevelRequired": 0,
-        "levels": [
-          {
-            "buyVirtual": 0,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "breedingstation": {
-        "buyable": 0,
-        "userLevelRequired": 5,
-        "levels": [
-          {
-            "buyVirtual": 1500,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "kindergarden": {
-        "buyable": 0,
-        "userLevelRequired": 5,
-        "levels": [
-          {
-            "buyVirtual": 1500,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "watertower": {
-        "buyable": 0,
-        "userLevelRequired": 0,
-        "levels": [
-          {
-            "level": 0,
-            "maxCap": 500,
-            "buyVirtual": 0,
-            "buyReal": 0,
-            "viewState": 1
-          },
-          {
-            "level": 1,
-            "maxCap": 550,
-            "buyVirtual": 5000,
-            "buyReal": 3,
-            "viewState": 1
-          },
-          {
-            "level": 2,
-            "maxCap": 600,
-            "buyVirtual": 15000,
-            "buyReal": 4,
-            "viewState": 1
-          },
-          {
-            "level": 3,
-            "maxCap": 650,
-            "buyVirtual": 30000,
-            "buyReal": 5,
-            "viewState": 1
-          },
-          {
-            "level": 4,
-            "maxCap": 750,
-            "buyVirtual": 100000,
-            "buyReal": 10,
-            "viewState": 1
-          },
-          {
-            "level": 5,
-            "maxCap": 850,
-            "buyVirtual": 150000,
-            "buyReal": 12,
-            "viewState": 2
-          },
-          {
-            "level": 6,
-            "maxCap": 950,
-            "buyVirtual": 300000,
-            "buyReal": 15,
-            "viewState": 2
-          },
-          {
-            "level": 7,
-            "maxCap": 1100,
-            "buyVirtual": 500000,
-            "buyReal": 25,
-            "viewState": 2
-          },
-          {
-            "level": 8,
-            "maxCap": 1250,
-            "buyVirtual": 999999,
-            "buyReal": 30,
-            "viewState": 2
-          },
-          {
-            "level": 9,
-            "maxCap": 1500,
-            "buyVirtual": 0,
-            "buyReal": 35,
-            "viewState": 3
-          },
-          {
-            "level": 10,
-            "maxCap": 1750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 11,
-            "maxCap": 2000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 12,
-            "maxCap": 2250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 13,
-            "maxCap": 2500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 14,
-            "maxCap": 2750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 15,
-            "maxCap": 3000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 16,
-            "maxCap": 3250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 17,
-            "maxCap": 3500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 18,
-            "maxCap": 3750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 19,
-            "maxCap": 4000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 20,
-            "maxCap": 4250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 21,
-            "maxCap": 4500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 22,
-            "maxCap": 4750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 23,
-            "maxCap": 5000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 24,
-            "maxCap": 5250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 25,
-            "maxCap": 5500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 26,
-            "maxCap": 5750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 27,
-            "maxCap": 6000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 28,
-            "maxCap": 6250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 29,
-            "maxCap": 6500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 30,
-            "maxCap": 6750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 31,
-            "maxCap": 7000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 32,
-            "maxCap": 7250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 33,
-            "maxCap": 7500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 34,
-            "maxCap": 7750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 35,
-            "maxCap": 8000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 36,
-            "maxCap": 8250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 37,
-            "maxCap": 8500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 38,
-            "maxCap": 8750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 39,
-            "maxCap": 9000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 40,
-            "maxCap": 9250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 41,
-            "maxCap": 9500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 42,
-            "maxCap": 9750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 43,
-            "maxCap": 9999,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          }
-        ]
-      },
-      "storage": {
-        "buyable": 0,
-        "userLevelRequired": 0,
-        "levels": [
-          {
-            "level": 0,
-            "maxCap": 250,
-            "buyVirtual": 0,
-            "buyReal": 0,
-            "viewState": 1
-          },
-          {
-            "level": 1,
-            "maxCap": 300,
-            "buyVirtual": 5000,
-            "buyReal": 3,
-            "viewState": 1
-          },
-          {
-            "level": 2,
-            "maxCap": 350,
-            "buyVirtual": 15000,
-            "buyReal": 4,
-            "viewState": 1
-          },
-          {
-            "level": 3,
-            "maxCap": 400,
-            "buyVirtual": 30000,
-            "buyReal": 5,
-            "viewState": 1
-          },
-          {
-            "level": 4,
-            "maxCap": 500,
-            "buyVirtual": 100000,
-            "buyReal": 10,
-            "viewState": 1
-          },
-          {
-            "level": 5,
-            "maxCap": 600,
-            "buyVirtual": 150000,
-            "buyReal": 12,
-            "viewState": 2
-          },
-          {
-            "level": 6,
-            "maxCap": 700,
-            "buyVirtual": 300000,
-            "buyReal": 15,
-            "viewState": 2
-          },
-          {
-            "level": 7,
-            "maxCap": 850,
-            "buyVirtual": 500000,
-            "buyReal": 25,
-            "viewState": 2
-          },
-          {
-            "level": 8,
-            "maxCap": 1000,
-            "buyVirtual": 999999,
-            "buyReal": 30,
-            "viewState": 2
-          },
-          {
-            "level": 9,
-            "maxCap": 1250,
-            "buyVirtual": 0,
-            "buyReal": 35,
-            "viewState": 3
-          },
-          {
-            "level": 10,
-            "maxCap": 1500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 11,
-            "maxCap": 1750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 12,
-            "maxCap": 2000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 13,
-            "maxCap": 2250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 14,
-            "maxCap": 2500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 15,
-            "maxCap": 2750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 16,
-            "maxCap": 3000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 17,
-            "maxCap": 3250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 18,
-            "maxCap": 3500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 19,
-            "maxCap": 3750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 20,
-            "maxCap": 4000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 21,
-            "maxCap": 4250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 22,
-            "maxCap": 4500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 23,
-            "maxCap": 4750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 24,
-            "maxCap": 5000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 25,
-            "maxCap": 5250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 26,
-            "maxCap": 5500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 27,
-            "maxCap": 5750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 28,
-            "maxCap": 6000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 29,
-            "maxCap": 6250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 30,
-            "maxCap": 6500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 31,
-            "maxCap": 6750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 32,
-            "maxCap": 7000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 33,
-            "maxCap": 7250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 34,
-            "maxCap": 7500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 35,
-            "maxCap": 7750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 36,
-            "maxCap": 8000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 37,
-            "maxCap": 8250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 38,
-            "maxCap": 8500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 39,
-            "maxCap": 8750,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 40,
-            "maxCap": 9000,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 41,
-            "maxCap": 9250,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 42,
-            "maxCap": 9500,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 43,
-            "maxCap": 9999,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          }
-        ]
-      },
-      "foodcrafting": {
-        "buyable": 0,
-        "userLevelRequired": 5,
-        "levels": [
-          {
-            "buyVirtual": 1500,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "cagecrafting": {
-        "buyable": 0,
-        "userLevelRequired": 5,
-        "levels": [
-          {
-            "buyVirtual": 1500,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "bank": {
-        "buyable": 0,
-        "userLevelRequired": 5,
-        "levels": [
-          {
-            "buyVirtual": 1500,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "quest": {
-        "buyable": 0,
-        "userLevelRequired": 5,
-        "levels": [
-          {
-            "buyVirtual": 1500,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "tombola": {
-        "buyable": 0,
-        "userLevelRequired": 5,
-        "levels": [
-          {
-            "buyVirtual": 1500,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "cinema": {
-        "buyable": 0,
-        "userLevelRequired": 5,
-        "levels": [
-          {
-            "buyVirtual": 1500,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "safari": {
-        "buyable": 0,
-        "userLevelRequired": 7,
-        "levels": [
-          {
-            "buyVirtual": 1500,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "circus": {
-        "buyable": 0,
-        "userLevelRequired": 0,
-        "levels": [
-          {
-            "buyVirtual": 1500,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "event": {
-        "buyable": 0,
-        "userLevelRequired": 0,
-        "levels": [
-          {
-            "buyVirtual": 1500,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      },
-      "recycling": {
-        "buyable": 0,
-        "userLevelRequired": 7,
-        "levels": [
-          {
-            "level": 0,
-            "maxCap": 700,
-            "buyVirtual": 0,
-            "buyReal": 0,
-            "viewState": 1
-          },
-          {
-            "level": 1,
-            "maxCap": 850,
-            "buyVirtual": 5000,
-            "buyReal": 3,
-            "viewState": 1
-          },
-          {
-            "level": 2,
-            "maxCap": 1000,
-            "buyVirtual": 15000,
-            "buyReal": 4,
-            "viewState": 1
-          },
-          {
-            "level": 3,
-            "maxCap": 1150,
-            "buyVirtual": 30000,
-            "buyReal": 5,
-            "viewState": 1
-          },
-          {
-            "level": 4,
-            "maxCap": 1300,
-            "buyVirtual": 100000,
-            "buyReal": 10,
-            "viewState": 1
-          },
-          {
-            "level": 5,
-            "maxCap": 1500,
-            "buyVirtual": 150000,
-            "buyReal": 12,
-            "viewState": 2
-          },
-          {
-            "level": 6,
-            "maxCap": 1700,
-            "buyVirtual": 300000,
-            "buyReal": 15,
-            "viewState": 2
-          },
-          {
-            "level": 7,
-            "maxCap": 1950,
-            "buyVirtual": 500000,
-            "buyReal": 25,
-            "viewState": 2
-          },
-          {
-            "level": 8,
-            "maxCap": 2200,
-            "buyVirtual": 999999,
-            "buyReal": 30,
-            "viewState": 2
-          },
-          {
-            "level": 9,
-            "maxCap": 2450,
-            "buyVirtual": 0,
-            "buyReal": 35,
-            "viewState": 3
-          },
-          {
-            "level": 10,
-            "maxCap": 2700,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 11,
-            "maxCap": 2950,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 12,
-            "maxCap": 3200,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 13,
-            "maxCap": 3450,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 14,
-            "maxCap": 3700,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 15,
-            "maxCap": 3950,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 16,
-            "maxCap": 4200,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 17,
-            "maxCap": 4450,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 18,
-            "maxCap": 4700,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 19,
-            "maxCap": 4950,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 20,
-            "maxCap": 5200,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 21,
-            "maxCap": 5450,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 22,
-            "maxCap": 5700,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 23,
-            "maxCap": 5950,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 24,
-            "maxCap": 6200,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 25,
-            "maxCap": 6450,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 26,
-            "maxCap": 6700,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 27,
-            "maxCap": 6950,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 28,
-            "maxCap": 7200,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 29,
-            "maxCap": 7450,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 30,
-            "maxCap": 7700,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 31,
-            "maxCap": 7950,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 32,
-            "maxCap": 8200,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 33,
-            "maxCap": 8450,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 34,
-            "maxCap": 8700,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 35,
-            "maxCap": 8950,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 36,
-            "maxCap": 9200,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 37,
-            "maxCap": 9450,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 38,
-            "maxCap": 9700,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 39,
-            "maxCap": 9950,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          },
-          {
-            "level": 40,
-            "maxCap": 9999,
-            "buyVirtual": 0,
-            "buyReal": 50,
-            "viewState": 3
-          }
-        ]
-      },
-      "crafting": {
-        "buyable": 0,
-        "userLevelRequired": 7,
-        "levels": [
-          {
-            "level": 0,
-            "maxCap": 250,
-            "buyVirtual": 0,
-            "buyReal": 0,
-            "viewState": 1
-          }
-        ]
-      }
-    },
-    "managementCenterData": {
-      "post": {
-        "builded": 1,
-        "level": 0,
-        "attentionState": 0
-      },
-      "quest": {
-        "builded": 1,
-        "level": 0,
-        "attentionState": 0
-      },
-      "bank": {
-        "builded": 1,
-        "level": 0,
-        "attentionState": 0
-      },
-      "tombola": {
-        "builded": 1,
-        "level": 0,
-        "attentionState": 0
-      },
-      "breedingstation": {
-        "builded": 1,
-        "uId": 164826,
-        "level": 0,
-        "attentionState": 0
-      },
-      "kindergarden": {
-        "builded": 1,
-        "uId": 163189,
-        "level": 0,
-        "attentionState": 0
-      },
-      "safari": {
-        "builded": 1,
-        "level": 0,
-        "attentionState": 0
-      },
-      "watertower": {
-        "builded": 1,
-        "level": 8,
-        "attentionState": 0
-      },
-      "storage": {
-        "builded": 1,
-        "level": 8,
-        "attentionState": 0
-      },
-      "cinema": {
-        "builded": 1,
-        "level": 0,
-        "attentionState": 0
-      },
-      "circus": {
-        "builded": 0,
-        "level": 0,
-        "attentionState": 0
-      },
-      "recycling": {
-        "builded": 1,
-        "level": 8,
-        "attentionState": 0,
-        "newbie": 0
-      },
-      "crafting": {
-        "builded": 1,
-        "level": 0,
-        "attentionState": 0,
-        "newbie": 0
-      },
-      "cagecrafting": {
-        "builded": 0,
-        "level": 0,
-        "attentionState": 0
-      },
-      "event": {
-        "builded": 0,
-        "level": 0,
-        "attentionState": 0,
-        "eventId": 58
-      }
-    },
-    "alObj": {
-      "1": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "1",
-        "cnt": 51386,
-        "stage": "4"
-      },
-      "2": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "2",
-        "cnt": 566,
-        "stage": 4
-      },
-      "3": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "3",
-        "cnt": 503,
-        "stage": "4"
-      },
-      "4": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "4",
-        "cnt": 23022463,
-        "stage": "4"
-      },
-      "5": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "5",
-        "cnt": 51717,
-        "stage": "3"
-      },
-      "6": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "6",
-        "cnt": "405",
-        "stage": "4"
-      },
-      "7": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "7",
-        "cnt": 11631,
-        "stage": 2
-      },
-      "8": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "8",
-        "cnt": 817919.76,
-        "stage": "4"
-      },
-      "9": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "9",
-        "cnt": 13782,
-        "stage": "2"
-      },
-      "10": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "10",
-        "cnt": 351863,
-        "stage": "4"
-      },
-      "11": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "11",
-        "cnt": 4400,
-        "stage": 2
-      },
-      "12": {
-        "uId": "PLACEHOLDER_USERID",
-        "aId": "12",
-        "cnt": 589561,
-        "stage": "4"
-      }
-    },
-    "asObj": {
-      "1": {
-        "asId": "1",
-        "end": "1606428541",
-        "nL": "1"
-      },
-      "2": {
-        "asId": "2",
-        "end": "1606428541",
-        "nL": "1"
-      },
-      "3": {
-        "asId": "3",
-        "end": "1606514941",
-        "nL": "1"
-      },
-      "4": {
-        "asId": "4",
-        "end": "1606428541",
-        "nL": "1"
-      },
-      "5": {
-        "asId": "5",
-        "end": "1606428541",
-        "nL": "1"
-      },
-      "6": {
-        "asId": "6",
-        "end": "1606428541",
-        "nL": "1"
-      },
-      "7": {
-        "asId": "7",
-        "end": "1606428541",
-        "nL": "1"
-      },
-      "8": {
-        "asId": "8",
-        "end": "1606428541",
-        "nL": "1"
-      },
-      "9": {
-        "asId": "9",
-        "end": "1606428541",
-        "nL": "1"
-      },
-      "10": {
-        "asId": "10",
-        "end": "1606428541",
-        "nL": "1"
-      },
-      "11": {
-        "asId": "11",
-        "end": "1606428541",
-        "nL": "1"
-      }
-    },
-    "qObj": {
-      "daily": {
-        "125038441": {
-          "qdId": "125038441",
-          "uId": "PLACEHOLDER_USERID",
-          "active": "0",
-          "done": "0",
-          "endTime": "1606831811",
-          "tasks": [
-            {
-              "affectAll": 0,
-              "itemType": "species",
-              "itemId": 9,
-              "actionName": "clean",
-              "actionCount": 9
-            },
-            {
-              "affectAll": 0,
-              "itemType": "species",
-              "itemId": 18,
-              "actionName": "water",
-              "actionCount": 7
-            },
-            {
-              "affectAll": 0,
-              "itemType": "species",
-              "itemId": 58,
-              "actionName": "clean",
-              "actionCount": 13
-            }
-          ],
-          "reward": {
-            "currencyVirtual": 378,
-            "xp": 4774,
-            "resources": {
-              "8": 0,
-              "9": 0
-            },
-            "currencyReal": 0
-          }
-        },
-        "125038442": {
-          "qdId": "125038442",
-          "uId": "PLACEHOLDER_USERID",
-          "active": "0",
-          "done": "0",
-          "endTime": "1606831811",
-          "tasks": [
-            {
-              "affectAll": 0,
-              "itemType": "species",
-              "itemId": 43,
-              "actionName": "cuddle",
-              "actionCount": 14
-            }
-          ],
-          "reward": {
-            "currencyVirtual": 0,
-            "xp": 2106,
-            "resources": {
-              "8": 0,
-              "9": 0
-            },
-            "currencyReal": 0
-          }
-        },
-        "125038443": {
-          "qdId": "125038443",
-          "uId": "PLACEHOLDER_USERID",
-          "active": "0",
-          "done": "0",
-          "endTime": "1606831811",
-          "tasks": [
-            {
-              "affectAll": 0,
-              "itemType": "species",
-              "itemId": 267,
-              "oceanworld": 1,
-              "actionName": "cuddle",
-              "actionCount": 17
-            }
-          ],
-          "reward": {
-            "currencyVirtual": 374,
-            "xp": 0,
-            "resources": {
-              "8": 0,
-              "9": 0
-            },
-            "currencyReal": 0
-          }
-        },
-        "125038444": {
-          "qdId": "125038444",
-          "uId": "PLACEHOLDER_USERID",
-          "active": "0",
-          "done": "0",
-          "endTime": "1606831811",
-          "tasks": [
-            {
-              "affectAll": 0,
-              "itemType": "species",
-              "itemId": 15,
-              "actionName": "water",
-              "actionCount": 11
-            }
-          ],
-          "reward": {
-            "currencyVirtual": 378,
-            "xp": 0,
-            "resources": {
-              "8": 0,
-              "9": 0
-            },
-            "currencyReal": 0
-          }
-        },
-        "125038445": {
-          "qdId": "125038445",
-          "uId": "PLACEHOLDER_USERID",
-          "active": "0",
-          "done": "0",
-          "endTime": "1606831811",
-          "tasks": [
-            {
-              "affectAll": 0,
-              "itemType": "species",
-              "itemId": 17,
-              "actionName": "feed",
-              "actionCount": 10
-            }
-          ],
-          "reward": {
-            "currencyVirtual": 0,
-            "xp": 2574,
-            "resources": {
-              "8": 0,
-              "9": 0
-            },
-            "currencyReal": 0
-          }
-        }
-      }
-    },
-    "nObj": {
-      "tabs": {
-        "1": 106,
-        "2": 101,
-        "3": 92
-      },
-      "items": [],
-      "cmn": null
-    },
-    "vObj": [],
-    "errObj": null,
-    "gObj": [],
-    "res": {
-      "1": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1,
-        "cnt": 25,
-        "mCnt": 1250
-      },
-      "2": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 2,
-        "cnt": 25,
-        "mCnt": 1000
-      },
-      "3": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 3,
-        "cnt": 25,
-        "mCnt": 1000
-      },
-      "4": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 4,
-        "cnt": 25,
-        "mCnt": 1000
-      },
-      "5": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 5,
-        "cnt": 25,
-        "mCnt": 1000
-      },
-      "6": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 6,
-        "cnt": 25,
-        "mCnt": 1000
-      },
-      "7": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 7,
-        "cnt": 25,
-        "mCnt": 250
-      },
-      "8": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 8,
-        "cnt": 0,
-        "mCnt": 999
-      },
-      "9": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 9,
-        "cnt": 0,
-        "mCnt": 999
-      },
-      "10": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 10,
-        "cnt": 0,
-        "mCnt": 999
-      },
-      "11": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 11,
-        "cnt": 0,
-        "mCnt": 999
-      },
-      "12": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 12,
-        "cnt": 0,
-        "mCnt": 999
-      },
-      "13": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 13,
-        "cnt": 2200,
-        "mCnt": 2200
-      },
-      "14": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 14,
-        "cnt": 5,
-        "mCnt": 250
-      },
-      "15": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 15,
-        "cnt": 5,
-        "mCnt": 250
-      },
-      "16": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 16,
-        "cnt": 1000,
-        "mCnt": 1000
-      },
-      "17": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 17,
-        "cnt": 916,
-        "mCnt": 1000
-      },
-      "18": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 18,
-        "cnt": 1000,
-        "mCnt": 1000
-      },
-      "19": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 19,
-        "cnt": 0,
-        "mCnt": 1000
-      },
-      "20": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 20,
-        "cnt": 248,
-        "mCnt": 250
-      },
-      "21": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 21,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "22": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 22,
-        "cnt": 0,
-        "mCnt": 250
-      }
-    },
-    "mat": {
-      "1": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "2": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 2,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "3": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 3,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "4": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 4,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "5": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 5,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "6": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 6,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "7": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 7,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "8": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 8,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "9": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 9,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "10": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 10,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "11": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 11,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "12": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 12,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "13": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 13,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "14": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 14,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "15": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 15,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "16": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 16,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "17": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 17,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "18": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 18,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "19": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 19,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "20": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 20,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "21": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 21,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "22": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 22,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "23": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 23,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "24": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 24,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "25": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 25,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "26": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 26,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "27": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 27,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "28": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 28,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "29": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 29,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "30": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 30,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "31": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 31,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "33": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 33,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "34": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 34,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "35": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 35,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "36": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 36,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "37": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 37,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "38": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 38,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "39": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 39,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "40": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 40,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "41": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 41,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "42": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 42,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "43": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 43,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "44": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 44,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "46": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 46,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "47": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 47,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "48": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 48,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "49": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 49,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "50": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 50,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "51": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 51,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "52": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 52,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "53": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 53,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "54": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 54,
-        "cnt": 0,
-        "mCnt": 250
-      },
-      "55": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 55,
-        "cnt": 0,
-        "mCnt": 250
-      }
-    },
-    "bp": {
-      "1": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1,
-        "active": 1
-      },
-      "2": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 2,
-        "active": 1
-      },
-      "3": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 3,
-        "active": 1
-      },
-      "6": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 6,
-        "active": 1
-      },
-      "8": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 8,
-        "active": 1
-      },
-      "9": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 9,
-        "active": 1
-      },
-      "10": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 10,
-        "active": 1
-      },
-      "11": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 11,
-        "active": 1
-      },
-      "12": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 12,
-        "active": 1
-      },
-      "14": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 14,
-        "active": 1
-      },
-      "16": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 16,
-        "active": 1
-      },
-      "17": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 17,
-        "active": 1
-      },
-      "20": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 20,
-        "active": 1
-      },
-      "22": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 22,
-        "active": 1
-      },
-      "23": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 23,
-        "active": 1
-      },
-      "24": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 24,
-        "active": 1
-      },
-      "28": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 28,
-        "active": 1
-      },
-      "30": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 30,
-        "active": 1
-      },
-      "31": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 31,
-        "active": 1
-      },
-      "32": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 32,
-        "active": 1
-      },
-      "34": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 34,
-        "active": 1
-      },
-      "36": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 36,
-        "active": 1
-      },
-      "37": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 37,
-        "active": 1
-      },
-      "38": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 38,
-        "active": 1
-      },
-      "41": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 41,
-        "active": 1
-      },
-      "42": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 42,
-        "active": 1
-      },
-      "43": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 43,
-        "active": 1
-      },
-      "44": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 44,
-        "active": 1
-      },
-      "45": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 45,
-        "active": 1
-      },
-      "47": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 47,
-        "active": 1
-      },
-      "48": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 48,
-        "active": 1
-      },
-      "49": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 49,
-        "active": 1
-      },
-      "50": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 50,
-        "active": 1
-      },
-      "51": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 51,
-        "active": 1
-      },
-      "52": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 52,
-        "active": 1
-      },
-      "53": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 53,
-        "active": 1
-      },
-      "54": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 54,
-        "active": 1
-      },
-      "56": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 56,
-        "active": 1
-      },
-      "57": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 57,
-        "active": 1
-      },
-      "58": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 58,
-        "active": 1
-      },
-      "59": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 59,
-        "active": 1
-      },
-      "61": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 61,
-        "active": 1
-      },
-      "62": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 62,
-        "active": 1
-      },
-      "63": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 63,
-        "active": 1
-      },
-      "64": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 64,
-        "active": 1
-      },
-      "67": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 67,
-        "active": 1
-      },
-      "68": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 68,
-        "active": 1
-      },
-      "70": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 70,
-        "active": 1
-      },
-      "71": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 71,
-        "active": 1
-      },
-      "72": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 72,
-        "active": 1
-      },
-      "73": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 73,
-        "active": 1
-      },
-      "74": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 74,
-        "active": 1
-      },
-      "75": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 75,
-        "active": 1
-      },
-      "76": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 76,
-        "active": 1
-      },
-      "80": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 80,
-        "active": 1
-      },
-      "81": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 81,
-        "active": 1
-      },
-      "82": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 82,
-        "active": 1
-      },
-      "83": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 83,
-        "active": 1
-      },
-      "84": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 84,
-        "active": 1
-      },
-      "85": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 85,
-        "active": 1
-      },
-      "91": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 91,
-        "active": 1
-      },
-      "97": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 97,
-        "active": 1
-      },
-      "98": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 98,
-        "active": 1
-      },
-      "99": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 99,
-        "active": 1
-      },
-      "100": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 100,
-        "active": 1
-      },
-      "101": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 101,
-        "active": 1
-      },
-      "103": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 103,
-        "active": 1
-      },
-      "109": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 109,
-        "active": 1
-      },
-      "133": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 133,
-        "active": 1
-      },
-      "134": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 134,
-        "active": 1
-      },
-      "135": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 135,
-        "active": 1
-      },
-      "136": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 136,
-        "active": 1
-      },
-      "137": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 137,
-        "active": 1
-      },
-      "142": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 142,
-        "active": 1
-      },
-      "143": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 143,
-        "active": 1
-      },
-      "144": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 144,
-        "active": 1
-      },
-      "145": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 145,
-        "active": 1
-      },
-      "149": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 149,
-        "active": 1
-      },
-      "153": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 153,
-        "active": 1
-      },
-      "156": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 156,
-        "active": 1
-      },
-      "158": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 158,
-        "active": 1
-      },
-      "159": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 159,
-        "active": 1
-      },
-      "500": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 500,
-        "active": 1
-      },
-      "501": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 501,
-        "active": 1
-      },
-      "502": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 502,
-        "active": 1
-      },
-      "504": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 504,
-        "active": 1
-      },
-      "507": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 507,
-        "active": 1
-      },
-      "600": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 600,
-        "active": 1
-      },
-      "601": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 601,
-        "active": 1
-      },
-      "602": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 602,
-        "active": 1
-      },
-      "605": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 605,
-        "active": 1
-      },
-      "606": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 606,
-        "active": 1
-      },
-      "608": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 608,
-        "active": 1
-      },
-      "611": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 611,
-        "active": 1
-      },
-      "612": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 612,
-        "active": 1
-      },
-      "620": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 620,
-        "active": 1
-      },
-      "623": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 623,
-        "active": 1
-      },
-      "700": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 700,
-        "active": 1
-      },
-      "1001": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1001,
-        "active": 1
-      },
-      "1002": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1002,
-        "active": 1
-      },
-      "1003": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1003,
-        "active": 1
-      },
-      "1004": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1004,
-        "active": 1
-      },
-      "1005": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1005,
-        "active": 1
-      },
-      "1006": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1006,
-        "active": 1
-      },
-      "1007": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1007,
-        "active": 1
-      },
-      "1008": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1008,
-        "active": 1
-      },
-      "1009": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1009,
-        "active": 1
-      },
-      "1011": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1011,
-        "active": 1
-      }
-    },
-    "animals": {
-      "0": [
-        {}
-      ],
-      "01PLACEHOLDER_USERID": {}
-    },
-    "events": {
-      "49": {
-        "eventId": "49",
-        "eventName": "thanksGiving2013",
-        "description": "Thanksgiving Event 2013",
-        "startDate": "1604574000",
-        "endDate": "1606820400",
-        "displayTimer": "0",
-        "affiliateId": "-1",
-        "locale": "all",
-        "affectedActions": "{}"
-      },
-      "98": {
-        "eventId": "98",
-        "eventName": "winter2016",
-        "description": "Winter Boardgame 2016",
-        "startDate": "1606993200",
-        "endDate": "1609239600",
-        "displayTimer": "0",
-        "affiliateId": "-1",
-        "locale": "all",
-        "affectedActions": "{\r\n  \"theme\":{\r\n      \"music\":\"xmas2013_music.mp3\",\r\n      \"background\":\"background_winter.swf\",\r\n      \"roadtheme\":\"winter\"\r\n   },\r\n  \"cages\":{\r\n     \"13\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"20\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"28\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"42\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"55\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     }\r\n  },\r\n  \"decos\":{\r\n     \"90\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"84\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"89\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"88\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"92\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"91\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"85\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"86\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"87\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"145\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"146\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"147\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"148\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"43\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"41\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"42\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"107\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"341\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"342\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"343\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"344\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     }\r\n  },\r\n  \"stores\":{\r\n     \"22\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"23\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"70\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"71\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"83\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"84\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"37\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"50\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"44\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"46\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"47\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"48\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"49\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     }\r\n  }\r\n}"
-      }
-    },
-    "pwrUp": [],
-    "ebObj": {
-      "1": {
-        "uId": "PLACEHOLDER_USERID",
-        "bId": "1"
-      },
-      "2": {
-        "uId": "PLACEHOLDER_USERID",
-        "bId": "2"
-      },
-      "3": {
-        "uId": PLACEHOLDER_USERID,
-        "bId": 3
-      },
-      "4": {
-        "uId": "PLACEHOLDER_USERID",
-        "bId": "4"
-      },
-      "5": {
-        "uId": "PLACEHOLDER_USERID",
-        "bId": "5"
-      },
-      "6": {
-        "uId": "PLACEHOLDER_USERID",
-        "bId": "6"
-      },
-      "8": {
-        "uId": "PLACEHOLDER_USERID",
-        "bId": "8"
-      }
-    },
-    "counter": {},
-    "mObj": {
-      "um": false
-    },
-    "uFs": [],
-    "uFrI": [],
-    "ava": {
-      "uId": PLACEHOLDER_USERID,
-      "ge": 0,
-      "fa": 5,
-      "ha": 6,
-      "ey": 12,
-      "mo": 20,
-      "ht": 15,
-      "cl": 4,
-      "bg": 1
-    },
-    "lObj": [],
-    "cinema": {
-      "uId": PLACEHOLDER_USERID,
-      "tickets": 3,
-      "dailyUpdate": 1606735984
-    },
-    "collItems": {
-      "1": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 1,
-        "cnt": 0
-      },
-      "3": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 3,
-        "cnt": 152
-      },
-      "4": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 4,
-        "cnt": 175
-      },
-      "5": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 5,
-        "cnt": 168
-      },
-      "6": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 6,
-        "cnt": 198
-      },
-      "7": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 7,
-        "cnt": 0
-      },
-      "8": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 8,
-        "cnt": 3
-      },
-      "9": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 9,
-        "cnt": 3
-      },
-      "10": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 10,
-        "cnt": 3
-      },
-      "11": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 11,
-        "cnt": 4
-      },
-      "18": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 18,
-        "cnt": 50
-      },
-      "19": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 19,
-        "cnt": 69
-      },
-      "20": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 20,
-        "cnt": 62
-      },
-      "21": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 21,
-        "cnt": 72
-      },
-      "22": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 22,
-        "cnt": 0
-      },
-      "23": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 23,
-        "cnt": 3
-      },
-      "24": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 24,
-        "cnt": 8
-      },
-      "25": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 25,
-        "cnt": 5
-      },
-      "26": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 26,
-        "cnt": 7
-      },
-      "27": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 27,
-        "cnt": 0
-      },
-      "28": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 28,
-        "cnt": 2
-      },
-      "29": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 29,
-        "cnt": 1
-      },
-      "30": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 30,
-        "cnt": 2
-      },
-      "31": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 31,
-        "cnt": 2
-      },
-      "38": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 38,
-        "cnt": 1
-      },
-      "39": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 39,
-        "cnt": 2
-      },
-      "40": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 40,
-        "cnt": 5
-      },
-      "41": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 41,
-        "cnt": 2
-      },
-      "43": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 43,
-        "cnt": 12
-      },
-      "44": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 44,
-        "cnt": 16
-      },
-      "45": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 45,
-        "cnt": 11
-      },
-      "46": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 46,
-        "cnt": 9
-      },
-      "47": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 47,
-        "cnt": 0
-      },
-      "48": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 48,
-        "cnt": 7
-      },
-      "49": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 49,
-        "cnt": 4
-      },
-      "51": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 51,
-        "cnt": 4
-      },
-      "53": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 53,
-        "cnt": 1
-      },
-      "54": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 54,
-        "cnt": 1
-      },
-      "56": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 56,
-        "cnt": 2
-      },
-      "59": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 59,
-        "cnt": 3
-      },
-      "61": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 61,
-        "cnt": 1
-      },
-      "63": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 63,
-        "cnt": 1
-      },
-      "64": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 64,
-        "cnt": 1
-      },
-      "65": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 65,
-        "cnt": 1
-      },
-      "66": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 66,
-        "cnt": 1
-      },
-      "67": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 67,
-        "cnt": 0
-      },
-      "68": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 68,
-        "cnt": 1
-      },
-      "69": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 69,
-        "cnt": 4
-      },
-      "70": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 70,
-        "cnt": 4
-      },
-      "71": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 71,
-        "cnt": 0
-      },
-      "72": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 72,
-        "cnt": 0
-      },
-      "73": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 73,
-        "cnt": 5
-      },
-      "74": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 74,
-        "cnt": 8
-      },
-      "75": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 75,
-        "cnt": 2
-      },
-      "76": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 76,
-        "cnt": 2
-      },
-      "77": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 77,
-        "cnt": 0
-      },
-      "78": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 78,
-        "cnt": 1
-      },
-      "79": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 79,
-        "cnt": 1
-      },
-      "80": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 80,
-        "cnt": 1
-      },
-      "81": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 81,
-        "cnt": 1
-      },
-      "88": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 88,
-        "cnt": 225
-      },
-      "89": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 89,
-        "cnt": 219
-      },
-      "90": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 90,
-        "cnt": 196
-      },
-      "91": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 91,
-        "cnt": 192
-      },
-      "92": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 92,
-        "cnt": 0
-      },
-      "108": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 108,
-        "cnt": 2
-      },
-      "109": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 109,
-        "cnt": 0
-      },
-      "110": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 110,
-        "cnt": 0
-      },
-      "111": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 111,
-        "cnt": 5
-      },
-      "112": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 112,
-        "cnt": 1
-      },
-      "113": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 113,
-        "cnt": 5
-      },
-      "114": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 114,
-        "cnt": 1
-      },
-      "115": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 115,
-        "cnt": 1
-      },
-      "116": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 116,
-        "cnt": 1
-      },
-      "117": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 117,
-        "cnt": 0
-      },
-      "124": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 124,
-        "cnt": 28
-      },
-      "135": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 135,
-        "cnt": 1
-      },
-      "138": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 138,
-        "cnt": 2
-      },
-      "160": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 160,
-        "cnt": 1
-      },
-      "164": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 164,
-        "cnt": 0
-      },
-      "165": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 165,
-        "cnt": 0
-      },
-      "166": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 166,
-        "cnt": 0
-      },
-      "167": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 167,
-        "cnt": 0
-      },
-      "168": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 168,
-        "cnt": 0
-      },
-      "182": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 182,
-        "cnt": 5
-      },
-      "183": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 183,
-        "cnt": 1
-      },
-      "205": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 205,
-        "cnt": 0
-      },
-      "206": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 206,
-        "cnt": 2
-      },
-      "207": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 207,
-        "cnt": 9
-      },
-      "208": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 208,
-        "cnt": 6
-      },
-      "209": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 209,
-        "cnt": 0
-      },
-      "243": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 243,
-        "cnt": 8
-      },
-      "244": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 244,
-        "cnt": 2
-      },
-      "245": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 245,
-        "cnt": 10
-      },
-      "246": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 246,
-        "cnt": 5
-      },
-      "253": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 253,
-        "cnt": 19
-      },
-      "284": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 284,
-        "cnt": 18
-      },
-      "285": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 285,
-        "cnt": 16
-      },
-      "286": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 286,
-        "cnt": 17
-      },
-      "287": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 287,
-        "cnt": 20
-      },
-      "288": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 288,
-        "cnt": 0
-      },
-      "289": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 289,
-        "cnt": 16
-      },
-      "290": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 290,
-        "cnt": 18
-      },
-      "291": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 291,
-        "cnt": 18
-      },
-      "292": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 292,
-        "cnt": 23
-      },
-      "293": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 293,
-        "cnt": 0
-      },
-      "294": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 294,
-        "cnt": 95
-      },
-      "305": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 305,
-        "cnt": 102
-      },
-      "306": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 306,
-        "cnt": 12
-      },
-      "307": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 307,
-        "cnt": 52
-      },
-      "320": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 320,
-        "cnt": 8
-      },
-      "321": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 321,
-        "cnt": 2
-      },
-      "322": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 322,
-        "cnt": 0
-      },
-      "323": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 323,
-        "cnt": 5
-      },
-      "324": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 324,
-        "cnt": 1
-      },
-      "335": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 335,
-        "cnt": 1
-      },
-      "336": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 336,
-        "cnt": 9
-      },
-      "337": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 337,
-        "cnt": 5
-      },
-      "398": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 398,
-        "cnt": 2
-      },
-      "399": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 399,
-        "cnt": 20
-      },
-      "400": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 400,
-        "cnt": 0
-      },
-      "411": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 411,
-        "cnt": 6050
-      },
-      "412": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 412,
-        "cnt": 0
-      },
-      "413": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 413,
-        "cnt": 43
-      },
-      "414": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 414,
-        "cnt": 36
-      },
-      "415": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 415,
-        "cnt": 43
-      },
-      "416": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 416,
-        "cnt": 31
-      },
-      "417": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 417,
-        "cnt": 0
-      },
-      "423": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 423,
-        "cnt": 20
-      },
-      "424": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 424,
-        "cnt": 39
-      },
-      "425": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 425,
-        "cnt": 18
-      },
-      "426": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 426,
-        "cnt": 3
-      },
-      "427": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 427,
-        "cnt": 6
-      },
-      "428": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 428,
-        "cnt": 11
-      },
-      "429": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 429,
-        "cnt": 3
-      },
-      "430": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 430,
-        "cnt": 0
-      },
-      "431": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 431,
-        "cnt": 6
-      },
-      "432": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 432,
-        "cnt": 5
-      },
-      "433": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 433,
-        "cnt": 5
-      },
-      "434": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 434,
-        "cnt": 7
-      },
-      "435": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 435,
-        "cnt": 0
-      },
-      "436": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 436,
-        "cnt": 2
-      },
-      "446": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 446,
-        "cnt": 3
-      },
-      "447": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 447,
-        "cnt": 0
-      },
-      "448": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 448,
-        "cnt": 0
-      },
-      "449": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 449,
-        "cnt": 0
-      },
-      "450": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 450,
-        "cnt": 1
-      },
-      "451": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 451,
-        "cnt": 1
-      },
-      "452": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 452,
-        "cnt": 2
-      },
-      "454": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 454,
-        "cnt": 1
-      },
-      "460": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 460,
-        "cnt": 110
-      },
-      "461": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 461,
-        "cnt": 20
-      },
-      "462": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 462,
-        "cnt": 0
-      },
-      "473": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 473,
-        "cnt": 3
-      },
-      "474": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 474,
-        "cnt": 18
-      },
-      "475": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 475,
-        "cnt": 29
-      },
-      "481": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 481,
-        "cnt": 7
-      },
-      "482": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 482,
-        "cnt": 9
-      },
-      "483": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 483,
-        "cnt": 5
-      },
-      "484": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 484,
-        "cnt": 12
-      },
-      "486": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 486,
-        "cnt": 6
-      },
-      "487": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 487,
-        "cnt": 6
-      },
-      "488": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 488,
-        "cnt": 7
-      },
-      "489": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 489,
-        "cnt": 8
-      },
-      "490": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 490,
-        "cnt": 0
-      },
-      "504": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 504,
-        "cnt": 7
-      },
-      "505": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 505,
-        "cnt": 5
-      },
-      "506": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 506,
-        "cnt": 5
-      },
-      "507": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 507,
-        "cnt": 10
-      },
-      "509": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 509,
-        "cnt": 6
-      },
-      "510": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 510,
-        "cnt": 15
-      },
-      "511": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 511,
-        "cnt": 19
-      },
-      "527": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 527,
-        "cnt": 2
-      },
-      "528": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 528,
-        "cnt": 15
-      },
-      "529": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 529,
-        "cnt": 13
-      },
-      "555": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 555,
-        "cnt": 5
-      },
-      "556": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 556,
-        "cnt": 5
-      },
-      "557": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 557,
-        "cnt": 5
-      },
-      "588": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 588,
-        "cnt": 2
-      },
-      "589": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 589,
-        "cnt": 2
-      },
-      "591": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 591,
-        "cnt": 2
-      },
-      "592": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 592,
-        "cnt": 2
-      },
-      "593": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 593,
-        "cnt": 0
-      },
-      "594": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 594,
-        "cnt": 0
-      },
-      "595": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 595,
-        "cnt": 2
-      },
-      "596": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 596,
-        "cnt": 0
-      },
-      "597": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 597,
-        "cnt": 0
-      },
-      "598": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 598,
-        "cnt": 3
-      },
-      "599": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 599,
-        "cnt": 1
-      },
-      "600": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 600,
-        "cnt": 2
-      },
-      "601": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 601,
-        "cnt": 3
-      },
-      "602": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 602,
-        "cnt": 0
-      },
-      "608": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 608,
-        "cnt": 6
-      },
-      "609": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 609,
-        "cnt": 5
-      },
-      "610": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 610,
-        "cnt": 3
-      },
-      "611": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 611,
-        "cnt": 5
-      },
-      "612": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 612,
-        "cnt": 0
-      },
-      "613": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 613,
-        "cnt": 10
-      },
-      "614": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 614,
-        "cnt": 18
-      },
-      "615": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 615,
-        "cnt": 3
-      },
-      "616": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 616,
-        "cnt": 10
-      },
-      "617": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 617,
-        "cnt": 0
-      },
-      "623": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 623,
-        "cnt": 1
-      },
-      "624": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 624,
-        "cnt": 0
-      },
-      "625": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 625,
-        "cnt": 4
-      },
-      "626": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 626,
-        "cnt": 1
-      },
-      "627": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 627,
-        "cnt": 0
-      },
-      "628": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 628,
-        "cnt": 0
-      },
-      "629": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 629,
-        "cnt": 1
-      },
-      "630": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 630,
-        "cnt": 1
-      },
-      "631": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 631,
-        "cnt": 1
-      },
-      "632": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 632,
-        "cnt": 2
-      },
-      "639": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 639,
-        "cnt": 3
-      },
-      "640": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 640,
-        "cnt": 3
-      },
-      "642": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 642,
-        "cnt": 2
-      },
-      "643": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 643,
-        "cnt": 1
-      },
-      "644": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 644,
-        "cnt": 6
-      },
-      "655": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 655,
-        "cnt": 10
-      },
-      "656": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 656,
-        "cnt": 11
-      },
-      "657": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 657,
-        "cnt": 3
-      },
-      "668": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 668,
-        "cnt": 0
-      },
-      "669": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 669,
-        "cnt": 12
-      },
-      "670": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 670,
-        "cnt": 7
-      },
-      "729": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 729,
-        "cnt": 8
-      },
-      "730": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 730,
-        "cnt": 9
-      },
-      "731": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 731,
-        "cnt": 3
-      },
-      "747": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 747,
-        "cnt": 5
-      },
-      "748": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 748,
-        "cnt": 4
-      },
-      "749": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 749,
-        "cnt": 0
-      },
-      "780": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 780,
-        "cnt": 1
-      },
-      "781": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 781,
-        "cnt": 1
-      },
-      "782": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 782,
-        "cnt": 1
-      },
-      "783": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 783,
-        "cnt": 47
-      },
-      "830": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 830,
-        "cnt": 4
-      },
-      "831": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 831,
-        "cnt": 5
-      },
-      "832": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 832,
-        "cnt": 4
-      },
-      "883": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 883,
-        "cnt": 3
-      },
-      "884": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 884,
-        "cnt": 6
-      },
-      "885": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 885,
-        "cnt": 1
-      },
-      "886": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 886,
-        "cnt": 2
-      },
-      "908": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 908,
-        "cnt": 1
-      },
-      "909": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 909,
-        "cnt": 1
-      },
-      "910": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 910,
-        "cnt": 3
-      },
-      "911": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 911,
-        "cnt": 1
-      },
-      "945": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 945,
-        "cnt": 6
-      },
-      "946": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 946,
-        "cnt": 6
-      },
-      "947": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 947,
-        "cnt": 7
-      },
-      "954": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 954,
-        "cnt": 2
-      },
-      "956": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 956,
-        "cnt": 2
-      },
-      "968": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 968,
-        "cnt": 15
-      },
-      "969": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 969,
-        "cnt": 1
-      },
-      "970": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 970,
-        "cnt": 79
-      },
-      "971": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 971,
-        "cnt": 2
-      },
-      "972": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 972,
-        "cnt": 2
-      },
-      "973": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 973,
-        "cnt": 6
-      },
-      "974": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 974,
-        "cnt": 3
-      },
-      "975": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 975,
-        "cnt": 0
-      },
-      "976": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 976,
-        "cnt": 6
-      },
-      "977": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 977,
-        "cnt": 4
-      },
-      "978": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 978,
-        "cnt": 6
-      },
-      "10000": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 10000,
-        "cnt": 3
-      },
-      "10001": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 10001,
-        "cnt": 4
-      },
-      "10002": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 10002,
-        "cnt": 2
-      },
-      "10003": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 10003,
-        "cnt": 6
-      },
-      "10006": {
-        "uId": PLACEHOLDER_USERID,
-        "id": 10006,
-        "cnt": 41
-      }
-    },
-    "avaInv": {
-      "cl": [],
-      "ey": [],
-      "fa": [],
-      "ha": [],
-      "ht": [],
-      "mo": []
-    },
-    "uTObj": {
-      "ftb": false,
-      "t": 0,
-      "r": {
-        "1": {
-          "type": "decos",
-          "id": 40,
-          "cnt": 1
-        },
-        "2": {
-          "type": "resources",
-          "id": 6,
-          "cnt": 150
-        },
-        "3": {
-          "type": "resources",
-          "id": 15,
-          "cnt": 2
-        },
-        "4": {
-          "type": "user",
-          "id": 2,
-          "cnt": 6200
-        },
-        "5": {
-          "type": "animals",
-          "id": 174,
-          "cnt": 1,
-          "alias": "skunk"
-        },
-        "6": {
-          "type": "powerUps",
-          "id": 7,
-          "cnt": 1
-        },
-        "7": {
-          "type": "resources",
-          "id": 8,
-          "cnt": 2
-        },
-        "8": {
-          "type": "assists",
-          "id": 3,
-          "cnt": 1
-        }
-      }
-    },
-    "fObj": {
-      "stores": {
-        "0": {},
-        "01PLACEHOLDER_USERID": {}
-      },
-      "specials": [
+    }
+  },
+  "sData": {
+    "time": 1606770288,
+    "urlPay": "/_ajax.php?action=payment&type=urlPay",
+    "ajaxPay": "/_ajax.php?action=payment",
+    "urlPrem": "/_ajax.php?action=payment&type=prem",
+    "urlStart": "/_ajax.php?action=payment&type=start",
+    "ajaxStart": "/_ajax.php?action=payment&type=start7",
+    "ajaxPrem": "/_ajax.php?action=payment&type=prem",
+    "urlCash": "/_ajax.php?action=cashforaction",
+    "ajaxCinema": "/_ajax.php?action=cinema",
+    "ajaxFastpay": "/_ajax.php?action=payment&type=fastpay"
+  },
+  "uObj": {
+    "uId": "PLACEHOLDER_USERID",
+    "uName": "Michielvde",
+    "uPremium1": 0,
+    "uPremium2": 0,
+    "uCv": 5000,
+    "uCr": 25,
+    "pPaw": 0,
+    "pearls": 0,
+    "uEp": 0,
+    "uLvl": 1,
+    "uTut": 0,
+    "uMode": "RUN",
+    "nDQ": 1606831811,
+    "lvlUp": null,
+    "entranceFee": 0,
+    "efAdd": 0,
+    "tutS": 0,
+    "tutT": 0,
+    "current_field": "01PLACEHOLDER_USERID"
+  },
+  "iObj": {
+    "iAn": [],
+    "iCa": [],
+    "iDe": [],
+    "iRo": [],
+    "iSt": []
+  },
+  "managementCenterConfig": {
+    "post": {
+      "buyable": 0,
+      "userLevelRequired": 0,
+      "levels": [
         {
-          "163189": {
-            "id": 163189,
-            "uId": PLACEHOLDER_USERID,
-            "fId": 0,
-            "sbId": 2,
-            "act": 0,
-            "level": 0,
-            "x": 36,
-            "y": 75,
-            "r": 0,
-            "build": 1357495531,
-            "end": 1606779380,
-            "usedItemType1": 11,
-            "usedItemId1": 185,
-            "usedItemType2": 0,
-            "usedItemId2": 0,
-            "usedItemType3": 0,
-            "usedItemId3": 0,
-            "usedItemType4": 0,
-            "usedItemId4": 0,
-            "usedItemType5": 0,
-            "usedItemId5": 0
-          },
-          "164826": {
-            "id": 164826,
-            "uId": PLACEHOLDER_USERID,
-            "fId": 0,
-            "sbId": 1,
-            "act": 0,
-            "level": 0,
-            "x": 0,
-            "y": 0,
-            "r": 0,
-            "build": 1358452740,
-            "end": 0,
-            "usedItemType1": 0,
-            "usedItemId1": 0,
-            "usedItemType2": 0,
-            "usedItemId2": 0,
-            "usedItemType3": 0,
-            "usedItemId3": 0,
-            "usedItemType4": 0,
-            "usedItemId4": 0,
-            "usedItemType5": 0,
-            "usedItemId5": 0
-          }
+          "buyVirtual": 0,
+          "buyReal": 0,
+          "viewState": 1
         }
-      ],
-      "cages": {
-        "01PLACEHOLDER_USERID": {}
-      },
-      "roads": {
-        "0": {},
-        "01PLACEHOLDER_USERID": {}
-      },
-      "decos": {
-        "0": {},
-        "01PLACEHOLDER_USERID": {}
-      },
-      "trashbins": {
-        "0": {},
-        "01PLACEHOLDER_USERID": {}
-      }
+      ]
     },
-    "init": "",
-    "recyclingSlots": {
-      "1": {
-        "uId": PLACEHOLDER_USERID,
-        "slotId": 1,
-        "materialId": 25,
-        "amount": 5,
-        "finishTime": 1606760862,
-        "endTime": 0
-      }
+    "breedingstation": {
+      "buyable": 0,
+      "userLevelRequired": 5,
+      "levels": [
+        {
+          "buyVirtual": 1500,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
+    },
+    "kindergarden": {
+      "buyable": 0,
+      "userLevelRequired": 5,
+      "levels": [
+        {
+          "buyVirtual": 1500,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
+    },
+    "watertower": {
+      "buyable": 0,
+      "userLevelRequired": 0,
+      "levels": [
+        {
+          "level": 0,
+          "maxCap": 500,
+          "buyVirtual": 0,
+          "buyReal": 0,
+          "viewState": 1
+        },
+        {
+          "level": 1,
+          "maxCap": 550,
+          "buyVirtual": 5000,
+          "buyReal": 3,
+          "viewState": 1
+        },
+        {
+          "level": 2,
+          "maxCap": 600,
+          "buyVirtual": 15000,
+          "buyReal": 4,
+          "viewState": 1
+        },
+        {
+          "level": 3,
+          "maxCap": 650,
+          "buyVirtual": 30000,
+          "buyReal": 5,
+          "viewState": 1
+        },
+        {
+          "level": 4,
+          "maxCap": 750,
+          "buyVirtual": 100000,
+          "buyReal": 10,
+          "viewState": 1
+        },
+        {
+          "level": 5,
+          "maxCap": 850,
+          "buyVirtual": 150000,
+          "buyReal": 12,
+          "viewState": 2
+        },
+        {
+          "level": 6,
+          "maxCap": 950,
+          "buyVirtual": 300000,
+          "buyReal": 15,
+          "viewState": 2
+        },
+        {
+          "level": 7,
+          "maxCap": 1100,
+          "buyVirtual": 500000,
+          "buyReal": 25,
+          "viewState": 2
+        },
+        {
+          "level": 8,
+          "maxCap": 1250,
+          "buyVirtual": 999999,
+          "buyReal": 30,
+          "viewState": 2
+        },
+        {
+          "level": 9,
+          "maxCap": 1500,
+          "buyVirtual": 0,
+          "buyReal": 35,
+          "viewState": 3
+        },
+        {
+          "level": 10,
+          "maxCap": 1750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 11,
+          "maxCap": 2000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 12,
+          "maxCap": 2250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 13,
+          "maxCap": 2500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 14,
+          "maxCap": 2750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 15,
+          "maxCap": 3000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 16,
+          "maxCap": 3250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 17,
+          "maxCap": 3500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 18,
+          "maxCap": 3750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 19,
+          "maxCap": 4000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 20,
+          "maxCap": 4250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 21,
+          "maxCap": 4500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 22,
+          "maxCap": 4750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 23,
+          "maxCap": 5000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 24,
+          "maxCap": 5250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 25,
+          "maxCap": 5500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 26,
+          "maxCap": 5750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 27,
+          "maxCap": 6000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 28,
+          "maxCap": 6250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 29,
+          "maxCap": 6500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 30,
+          "maxCap": 6750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 31,
+          "maxCap": 7000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 32,
+          "maxCap": 7250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 33,
+          "maxCap": 7500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 34,
+          "maxCap": 7750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 35,
+          "maxCap": 8000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 36,
+          "maxCap": 8250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 37,
+          "maxCap": 8500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 38,
+          "maxCap": 8750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 39,
+          "maxCap": 9000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 40,
+          "maxCap": 9250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 41,
+          "maxCap": 9500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 42,
+          "maxCap": 9750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 43,
+          "maxCap": 9999,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        }
+      ]
+    },
+    "storage": {
+      "buyable": 0,
+      "userLevelRequired": 0,
+      "levels": [
+        {
+          "level": 0,
+          "maxCap": 250,
+          "buyVirtual": 0,
+          "buyReal": 0,
+          "viewState": 1
+        },
+        {
+          "level": 1,
+          "maxCap": 300,
+          "buyVirtual": 5000,
+          "buyReal": 3,
+          "viewState": 1
+        },
+        {
+          "level": 2,
+          "maxCap": 350,
+          "buyVirtual": 15000,
+          "buyReal": 4,
+          "viewState": 1
+        },
+        {
+          "level": 3,
+          "maxCap": 400,
+          "buyVirtual": 30000,
+          "buyReal": 5,
+          "viewState": 1
+        },
+        {
+          "level": 4,
+          "maxCap": 500,
+          "buyVirtual": 100000,
+          "buyReal": 10,
+          "viewState": 1
+        },
+        {
+          "level": 5,
+          "maxCap": 600,
+          "buyVirtual": 150000,
+          "buyReal": 12,
+          "viewState": 2
+        },
+        {
+          "level": 6,
+          "maxCap": 700,
+          "buyVirtual": 300000,
+          "buyReal": 15,
+          "viewState": 2
+        },
+        {
+          "level": 7,
+          "maxCap": 850,
+          "buyVirtual": 500000,
+          "buyReal": 25,
+          "viewState": 2
+        },
+        {
+          "level": 8,
+          "maxCap": 1000,
+          "buyVirtual": 999999,
+          "buyReal": 30,
+          "viewState": 2
+        },
+        {
+          "level": 9,
+          "maxCap": 1250,
+          "buyVirtual": 0,
+          "buyReal": 35,
+          "viewState": 3
+        },
+        {
+          "level": 10,
+          "maxCap": 1500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 11,
+          "maxCap": 1750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 12,
+          "maxCap": 2000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 13,
+          "maxCap": 2250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 14,
+          "maxCap": 2500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 15,
+          "maxCap": 2750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 16,
+          "maxCap": 3000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 17,
+          "maxCap": 3250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 18,
+          "maxCap": 3500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 19,
+          "maxCap": 3750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 20,
+          "maxCap": 4000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 21,
+          "maxCap": 4250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 22,
+          "maxCap": 4500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 23,
+          "maxCap": 4750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 24,
+          "maxCap": 5000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 25,
+          "maxCap": 5250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 26,
+          "maxCap": 5500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 27,
+          "maxCap": 5750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 28,
+          "maxCap": 6000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 29,
+          "maxCap": 6250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 30,
+          "maxCap": 6500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 31,
+          "maxCap": 6750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 32,
+          "maxCap": 7000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 33,
+          "maxCap": 7250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 34,
+          "maxCap": 7500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 35,
+          "maxCap": 7750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 36,
+          "maxCap": 8000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 37,
+          "maxCap": 8250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 38,
+          "maxCap": 8500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 39,
+          "maxCap": 8750,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 40,
+          "maxCap": 9000,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 41,
+          "maxCap": 9250,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 42,
+          "maxCap": 9500,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 43,
+          "maxCap": 9999,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        }
+      ]
+    },
+    "foodcrafting": {
+      "buyable": 0,
+      "userLevelRequired": 5,
+      "levels": [
+        {
+          "buyVirtual": 1500,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
+    },
+    "cagecrafting": {
+      "buyable": 0,
+      "userLevelRequired": 5,
+      "levels": [
+        {
+          "buyVirtual": 1500,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
+    },
+    "bank": {
+      "buyable": 0,
+      "userLevelRequired": 5,
+      "levels": [
+        {
+          "buyVirtual": 1500,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
+    },
+    "quest": {
+      "buyable": 0,
+      "userLevelRequired": 5,
+      "levels": [
+        {
+          "buyVirtual": 1500,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
+    },
+    "tombola": {
+      "buyable": 0,
+      "userLevelRequired": 5,
+      "levels": [
+        {
+          "buyVirtual": 1500,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
+    },
+    "cinema": {
+      "buyable": 0,
+      "userLevelRequired": 5,
+      "levels": [
+        {
+          "buyVirtual": 1500,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
+    },
+    "safari": {
+      "buyable": 0,
+      "userLevelRequired": 7,
+      "levels": [
+        {
+          "buyVirtual": 1500,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
+    },
+    "circus": {
+      "buyable": 0,
+      "userLevelRequired": 0,
+      "levels": [
+        {
+          "buyVirtual": 1500,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
+    },
+    "event": {
+      "buyable": 0,
+      "userLevelRequired": 0,
+      "levels": [
+        {
+          "buyVirtual": 1500,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
+    },
+    "recycling": {
+      "buyable": 0,
+      "userLevelRequired": 7,
+      "levels": [
+        {
+          "level": 0,
+          "maxCap": 700,
+          "buyVirtual": 0,
+          "buyReal": 0,
+          "viewState": 1
+        },
+        {
+          "level": 1,
+          "maxCap": 850,
+          "buyVirtual": 5000,
+          "buyReal": 3,
+          "viewState": 1
+        },
+        {
+          "level": 2,
+          "maxCap": 1000,
+          "buyVirtual": 15000,
+          "buyReal": 4,
+          "viewState": 1
+        },
+        {
+          "level": 3,
+          "maxCap": 1150,
+          "buyVirtual": 30000,
+          "buyReal": 5,
+          "viewState": 1
+        },
+        {
+          "level": 4,
+          "maxCap": 1300,
+          "buyVirtual": 100000,
+          "buyReal": 10,
+          "viewState": 1
+        },
+        {
+          "level": 5,
+          "maxCap": 1500,
+          "buyVirtual": 150000,
+          "buyReal": 12,
+          "viewState": 2
+        },
+        {
+          "level": 6,
+          "maxCap": 1700,
+          "buyVirtual": 300000,
+          "buyReal": 15,
+          "viewState": 2
+        },
+        {
+          "level": 7,
+          "maxCap": 1950,
+          "buyVirtual": 500000,
+          "buyReal": 25,
+          "viewState": 2
+        },
+        {
+          "level": 8,
+          "maxCap": 2200,
+          "buyVirtual": 999999,
+          "buyReal": 30,
+          "viewState": 2
+        },
+        {
+          "level": 9,
+          "maxCap": 2450,
+          "buyVirtual": 0,
+          "buyReal": 35,
+          "viewState": 3
+        },
+        {
+          "level": 10,
+          "maxCap": 2700,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 11,
+          "maxCap": 2950,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 12,
+          "maxCap": 3200,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 13,
+          "maxCap": 3450,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 14,
+          "maxCap": 3700,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 15,
+          "maxCap": 3950,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 16,
+          "maxCap": 4200,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 17,
+          "maxCap": 4450,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 18,
+          "maxCap": 4700,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 19,
+          "maxCap": 4950,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 20,
+          "maxCap": 5200,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 21,
+          "maxCap": 5450,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 22,
+          "maxCap": 5700,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 23,
+          "maxCap": 5950,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 24,
+          "maxCap": 6200,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 25,
+          "maxCap": 6450,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 26,
+          "maxCap": 6700,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 27,
+          "maxCap": 6950,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 28,
+          "maxCap": 7200,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 29,
+          "maxCap": 7450,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 30,
+          "maxCap": 7700,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 31,
+          "maxCap": 7950,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 32,
+          "maxCap": 8200,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 33,
+          "maxCap": 8450,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 34,
+          "maxCap": 8700,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 35,
+          "maxCap": 8950,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 36,
+          "maxCap": 9200,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 37,
+          "maxCap": 9450,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 38,
+          "maxCap": 9700,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 39,
+          "maxCap": 9950,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        },
+        {
+          "level": 40,
+          "maxCap": 9999,
+          "buyVirtual": 0,
+          "buyReal": 50,
+          "viewState": 3
+        }
+      ]
     },
     "crafting": {
-      "active": 0
+      "buyable": 0,
+      "userLevelRequired": 7,
+      "levels": [
+        {
+          "level": 0,
+          "maxCap": 250,
+          "buyVirtual": 0,
+          "buyReal": 0,
+          "viewState": 1
+        }
+      ]
     }
+  },
+  "managementCenterData": {
+    "post": {
+      "builded": 1,
+      "level": 0,
+      "attentionState": 0
+    },
+    "quest": {
+      "builded": 1,
+      "level": 0,
+      "attentionState": 0
+    },
+    "bank": {
+      "builded": 1,
+      "level": 0,
+      "attentionState": 0
+    },
+    "tombola": {
+      "builded": 1,
+      "level": 0,
+      "attentionState": 0
+    },
+    "breedingstation": {
+      "builded": 1,
+      "uId": 164826,
+      "level": 0,
+      "attentionState": 0
+    },
+    "kindergarden": {
+      "builded": 1,
+      "uId": 163189,
+      "level": 0,
+      "attentionState": 0
+    },
+    "safari": {
+      "builded": 1,
+      "level": 0,
+      "attentionState": 0
+    },
+    "watertower": {
+      "builded": 1,
+      "level": 8,
+      "attentionState": 0
+    },
+    "storage": {
+      "builded": 1,
+      "level": 8,
+      "attentionState": 0
+    },
+    "cinema": {
+      "builded": 1,
+      "level": 0,
+      "attentionState": 0
+    },
+    "circus": {
+      "builded": 0,
+      "level": 0,
+      "attentionState": 0
+    },
+    "recycling": {
+      "builded": 1,
+      "level": 8,
+      "attentionState": 0,
+      "newbie": 0
+    },
+    "crafting": {
+      "builded": 1,
+      "level": 0,
+      "attentionState": 0,
+      "newbie": 0
+    },
+    "cagecrafting": {
+      "builded": 0,
+      "level": 0,
+      "attentionState": 0
+    },
+    "event": {
+      "builded": 0,
+      "level": 0,
+      "attentionState": 0,
+      "eventId": 58
+    }
+  },
+  "alObj": {
+    "1": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "1",
+      "cnt": 51386,
+      "stage": "4"
+    },
+    "2": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "2",
+      "cnt": 566,
+      "stage": 4
+    },
+    "3": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "3",
+      "cnt": 503,
+      "stage": "4"
+    },
+    "4": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "4",
+      "cnt": 23022463,
+      "stage": "4"
+    },
+    "5": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "5",
+      "cnt": 51717,
+      "stage": "3"
+    },
+    "6": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "6",
+      "cnt": "405",
+      "stage": "4"
+    },
+    "7": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "7",
+      "cnt": 11631,
+      "stage": 2
+    },
+    "8": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "8",
+      "cnt": 817919.76,
+      "stage": "4"
+    },
+    "9": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "9",
+      "cnt": 13782,
+      "stage": "2"
+    },
+    "10": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "10",
+      "cnt": 351863,
+      "stage": "4"
+    },
+    "11": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "11",
+      "cnt": 4400,
+      "stage": 2
+    },
+    "12": {
+      "uId": "PLACEHOLDER_USERID",
+      "aId": "12",
+      "cnt": 589561,
+      "stage": "4"
+    }
+  },
+  "asObj": {
+    "1": {
+      "asId": "1",
+      "end": "1606428541",
+      "nL": "1"
+    },
+    "2": {
+      "asId": "2",
+      "end": "1606428541",
+      "nL": "1"
+    },
+    "3": {
+      "asId": "3",
+      "end": "1606514941",
+      "nL": "1"
+    },
+    "4": {
+      "asId": "4",
+      "end": "1606428541",
+      "nL": "1"
+    },
+    "5": {
+      "asId": "5",
+      "end": "1606428541",
+      "nL": "1"
+    },
+    "6": {
+      "asId": "6",
+      "end": "1606428541",
+      "nL": "1"
+    },
+    "7": {
+      "asId": "7",
+      "end": "1606428541",
+      "nL": "1"
+    },
+    "8": {
+      "asId": "8",
+      "end": "1606428541",
+      "nL": "1"
+    },
+    "9": {
+      "asId": "9",
+      "end": "1606428541",
+      "nL": "1"
+    },
+    "10": {
+      "asId": "10",
+      "end": "1606428541",
+      "nL": "1"
+    },
+    "11": {
+      "asId": "11",
+      "end": "1606428541",
+      "nL": "1"
+    }
+  },
+  "qObj": {
+    "daily": {
+      "125038441": {
+        "qdId": "125038441",
+        "uId": "PLACEHOLDER_USERID",
+        "active": "0",
+        "done": "0",
+        "endTime": "1606831811",
+        "tasks": [
+          {
+            "affectAll": 0,
+            "itemType": "species",
+            "itemId": 9,
+            "actionName": "clean",
+            "actionCount": 9
+          },
+          {
+            "affectAll": 0,
+            "itemType": "species",
+            "itemId": 18,
+            "actionName": "water",
+            "actionCount": 7
+          },
+          {
+            "affectAll": 0,
+            "itemType": "species",
+            "itemId": 58,
+            "actionName": "clean",
+            "actionCount": 13
+          }
+        ],
+        "reward": {
+          "currencyVirtual": 378,
+          "xp": 4774,
+          "resources": {
+            "8": 0,
+            "9": 0
+          },
+          "currencyReal": 0
+        }
+      },
+      "125038442": {
+        "qdId": "125038442",
+        "uId": "PLACEHOLDER_USERID",
+        "active": "0",
+        "done": "0",
+        "endTime": "1606831811",
+        "tasks": [
+          {
+            "affectAll": 0,
+            "itemType": "species",
+            "itemId": 43,
+            "actionName": "cuddle",
+            "actionCount": 14
+          }
+        ],
+        "reward": {
+          "currencyVirtual": 0,
+          "xp": 2106,
+          "resources": {
+            "8": 0,
+            "9": 0
+          },
+          "currencyReal": 0
+        }
+      },
+      "125038443": {
+        "qdId": "125038443",
+        "uId": "PLACEHOLDER_USERID",
+        "active": "0",
+        "done": "0",
+        "endTime": "1606831811",
+        "tasks": [
+          {
+            "affectAll": 0,
+            "itemType": "species",
+            "itemId": 267,
+            "oceanworld": 1,
+            "actionName": "cuddle",
+            "actionCount": 17
+          }
+        ],
+        "reward": {
+          "currencyVirtual": 374,
+          "xp": 0,
+          "resources": {
+            "8": 0,
+            "9": 0
+          },
+          "currencyReal": 0
+        }
+      },
+      "125038444": {
+        "qdId": "125038444",
+        "uId": "PLACEHOLDER_USERID",
+        "active": "0",
+        "done": "0",
+        "endTime": "1606831811",
+        "tasks": [
+          {
+            "affectAll": 0,
+            "itemType": "species",
+            "itemId": 15,
+            "actionName": "water",
+            "actionCount": 11
+          }
+        ],
+        "reward": {
+          "currencyVirtual": 378,
+          "xp": 0,
+          "resources": {
+            "8": 0,
+            "9": 0
+          },
+          "currencyReal": 0
+        }
+      },
+      "125038445": {
+        "qdId": "125038445",
+        "uId": "PLACEHOLDER_USERID",
+        "active": "0",
+        "done": "0",
+        "endTime": "1606831811",
+        "tasks": [
+          {
+            "affectAll": 0,
+            "itemType": "species",
+            "itemId": 17,
+            "actionName": "feed",
+            "actionCount": 10
+          }
+        ],
+        "reward": {
+          "currencyVirtual": 0,
+          "xp": 2574,
+          "resources": {
+            "8": 0,
+            "9": 0
+          },
+          "currencyReal": 0
+        }
+      }
+    }
+  },
+  "nObj": {
+    "tabs": {
+      "1": 106,
+      "2": 101,
+      "3": 92
+    },
+    "items": [],
+    "cmn": null
+  },
+  "vObj": [],
+  "errObj": null,
+  "gObj": [],
+  "res": {
+    "1": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1,
+      "cnt": 25,
+      "mCnt": 1250
+    },
+    "2": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 2,
+      "cnt": 25,
+      "mCnt": 1000
+    },
+    "3": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 3,
+      "cnt": 25,
+      "mCnt": 1000
+    },
+    "4": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 4,
+      "cnt": 25,
+      "mCnt": 1000
+    },
+    "5": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 5,
+      "cnt": 25,
+      "mCnt": 1000
+    },
+    "6": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 6,
+      "cnt": 25,
+      "mCnt": 1000
+    },
+    "7": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 7,
+      "cnt": 25,
+      "mCnt": 250
+    },
+    "8": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 8,
+      "cnt": 0,
+      "mCnt": 999
+    },
+    "9": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 9,
+      "cnt": 0,
+      "mCnt": 999
+    },
+    "10": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 10,
+      "cnt": 0,
+      "mCnt": 999
+    },
+    "11": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 11,
+      "cnt": 0,
+      "mCnt": 999
+    },
+    "12": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 12,
+      "cnt": 0,
+      "mCnt": 999
+    },
+    "13": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 13,
+      "cnt": 2200,
+      "mCnt": 2200
+    },
+    "14": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 14,
+      "cnt": 5,
+      "mCnt": 250
+    },
+    "15": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 15,
+      "cnt": 5,
+      "mCnt": 250
+    },
+    "16": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 16,
+      "cnt": 1000,
+      "mCnt": 1000
+    },
+    "17": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 17,
+      "cnt": 916,
+      "mCnt": 1000
+    },
+    "18": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 18,
+      "cnt": 1000,
+      "mCnt": 1000
+    },
+    "19": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 19,
+      "cnt": 0,
+      "mCnt": 1000
+    },
+    "20": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 20,
+      "cnt": 248,
+      "mCnt": 250
+    },
+    "21": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 21,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "22": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 22,
+      "cnt": 0,
+      "mCnt": 250
+    }
+  },
+  "mat": {
+    "1": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "2": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 2,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "3": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 3,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "4": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 4,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "5": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 5,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "6": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 6,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "7": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 7,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "8": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 8,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "9": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 9,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "10": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 10,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "11": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 11,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "12": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 12,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "13": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 13,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "14": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 14,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "15": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 15,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "16": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 16,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "17": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 17,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "18": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 18,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "19": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 19,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "20": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 20,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "21": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 21,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "22": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 22,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "23": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 23,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "24": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 24,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "25": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 25,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "26": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 26,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "27": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 27,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "28": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 28,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "29": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 29,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "30": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 30,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "31": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 31,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "33": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 33,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "34": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 34,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "35": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 35,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "36": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 36,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "37": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 37,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "38": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 38,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "39": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 39,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "40": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 40,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "41": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 41,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "42": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 42,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "43": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 43,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "44": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 44,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "46": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 46,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "47": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 47,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "48": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 48,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "49": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 49,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "50": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 50,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "51": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 51,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "52": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 52,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "53": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 53,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "54": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 54,
+      "cnt": 0,
+      "mCnt": 250
+    },
+    "55": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 55,
+      "cnt": 0,
+      "mCnt": 250
+    }
+  },
+  "bp": {
+    "1": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1,
+      "active": 1
+    },
+    "2": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 2,
+      "active": 1
+    },
+    "3": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 3,
+      "active": 1
+    },
+    "6": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 6,
+      "active": 1
+    },
+    "8": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 8,
+      "active": 1
+    },
+    "9": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 9,
+      "active": 1
+    },
+    "10": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 10,
+      "active": 1
+    },
+    "11": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 11,
+      "active": 1
+    },
+    "12": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 12,
+      "active": 1
+    },
+    "14": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 14,
+      "active": 1
+    },
+    "16": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 16,
+      "active": 1
+    },
+    "17": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 17,
+      "active": 1
+    },
+    "20": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 20,
+      "active": 1
+    },
+    "22": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 22,
+      "active": 1
+    },
+    "23": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 23,
+      "active": 1
+    },
+    "24": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 24,
+      "active": 1
+    },
+    "28": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 28,
+      "active": 1
+    },
+    "30": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 30,
+      "active": 1
+    },
+    "31": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 31,
+      "active": 1
+    },
+    "32": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 32,
+      "active": 1
+    },
+    "34": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 34,
+      "active": 1
+    },
+    "36": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 36,
+      "active": 1
+    },
+    "37": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 37,
+      "active": 1
+    },
+    "38": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 38,
+      "active": 1
+    },
+    "41": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 41,
+      "active": 1
+    },
+    "42": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 42,
+      "active": 1
+    },
+    "43": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 43,
+      "active": 1
+    },
+    "44": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 44,
+      "active": 1
+    },
+    "45": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 45,
+      "active": 1
+    },
+    "47": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 47,
+      "active": 1
+    },
+    "48": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 48,
+      "active": 1
+    },
+    "49": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 49,
+      "active": 1
+    },
+    "50": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 50,
+      "active": 1
+    },
+    "51": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 51,
+      "active": 1
+    },
+    "52": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 52,
+      "active": 1
+    },
+    "53": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 53,
+      "active": 1
+    },
+    "54": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 54,
+      "active": 1
+    },
+    "56": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 56,
+      "active": 1
+    },
+    "57": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 57,
+      "active": 1
+    },
+    "58": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 58,
+      "active": 1
+    },
+    "59": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 59,
+      "active": 1
+    },
+    "61": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 61,
+      "active": 1
+    },
+    "62": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 62,
+      "active": 1
+    },
+    "63": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 63,
+      "active": 1
+    },
+    "64": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 64,
+      "active": 1
+    },
+    "67": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 67,
+      "active": 1
+    },
+    "68": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 68,
+      "active": 1
+    },
+    "70": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 70,
+      "active": 1
+    },
+    "71": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 71,
+      "active": 1
+    },
+    "72": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 72,
+      "active": 1
+    },
+    "73": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 73,
+      "active": 1
+    },
+    "74": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 74,
+      "active": 1
+    },
+    "75": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 75,
+      "active": 1
+    },
+    "76": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 76,
+      "active": 1
+    },
+    "80": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 80,
+      "active": 1
+    },
+    "81": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 81,
+      "active": 1
+    },
+    "82": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 82,
+      "active": 1
+    },
+    "83": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 83,
+      "active": 1
+    },
+    "84": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 84,
+      "active": 1
+    },
+    "85": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 85,
+      "active": 1
+    },
+    "91": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 91,
+      "active": 1
+    },
+    "97": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 97,
+      "active": 1
+    },
+    "98": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 98,
+      "active": 1
+    },
+    "99": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 99,
+      "active": 1
+    },
+    "100": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 100,
+      "active": 1
+    },
+    "101": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 101,
+      "active": 1
+    },
+    "103": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 103,
+      "active": 1
+    },
+    "109": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 109,
+      "active": 1
+    },
+    "133": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 133,
+      "active": 1
+    },
+    "134": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 134,
+      "active": 1
+    },
+    "135": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 135,
+      "active": 1
+    },
+    "136": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 136,
+      "active": 1
+    },
+    "137": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 137,
+      "active": 1
+    },
+    "142": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 142,
+      "active": 1
+    },
+    "143": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 143,
+      "active": 1
+    },
+    "144": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 144,
+      "active": 1
+    },
+    "145": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 145,
+      "active": 1
+    },
+    "149": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 149,
+      "active": 1
+    },
+    "153": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 153,
+      "active": 1
+    },
+    "156": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 156,
+      "active": 1
+    },
+    "158": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 158,
+      "active": 1
+    },
+    "159": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 159,
+      "active": 1
+    },
+    "500": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 500,
+      "active": 1
+    },
+    "501": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 501,
+      "active": 1
+    },
+    "502": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 502,
+      "active": 1
+    },
+    "504": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 504,
+      "active": 1
+    },
+    "507": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 507,
+      "active": 1
+    },
+    "600": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 600,
+      "active": 1
+    },
+    "601": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 601,
+      "active": 1
+    },
+    "602": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 602,
+      "active": 1
+    },
+    "605": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 605,
+      "active": 1
+    },
+    "606": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 606,
+      "active": 1
+    },
+    "608": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 608,
+      "active": 1
+    },
+    "611": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 611,
+      "active": 1
+    },
+    "612": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 612,
+      "active": 1
+    },
+    "620": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 620,
+      "active": 1
+    },
+    "623": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 623,
+      "active": 1
+    },
+    "700": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 700,
+      "active": 1
+    },
+    "1001": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1001,
+      "active": 1
+    },
+    "1002": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1002,
+      "active": 1
+    },
+    "1003": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1003,
+      "active": 1
+    },
+    "1004": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1004,
+      "active": 1
+    },
+    "1005": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1005,
+      "active": 1
+    },
+    "1006": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1006,
+      "active": 1
+    },
+    "1007": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1007,
+      "active": 1
+    },
+    "1008": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1008,
+      "active": 1
+    },
+    "1009": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1009,
+      "active": 1
+    },
+    "1011": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1011,
+      "active": 1
+    }
+  },
+  "animals": {
+    "0": [
+      {}
+    ],
+    "01PLACEHOLDER_USERID": {}
+  },
+  "events": {
+    "49": {
+      "eventId": "49",
+      "eventName": "thanksGiving2013",
+      "description": "Thanksgiving Event 2013",
+      "startDate": "1604574000",
+      "endDate": "1606820400",
+      "displayTimer": "0",
+      "affiliateId": "-1",
+      "locale": "all",
+      "affectedActions": "{}"
+    },
+    "98": {
+      "eventId": "98",
+      "eventName": "winter2016",
+      "description": "Winter Boardgame 2016",
+      "startDate": "1606993200",
+      "endDate": "1609239600",
+      "displayTimer": "0",
+      "affiliateId": "-1",
+      "locale": "all",
+      "affectedActions": "{\r\n  \"theme\":{\r\n      \"music\":\"xmas2013_music.mp3\",\r\n      \"background\":\"background_winter.swf\",\r\n      \"roadtheme\":\"winter\"\r\n   },\r\n  \"cages\":{\r\n     \"13\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"20\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"28\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"42\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"55\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     }\r\n  },\r\n  \"decos\":{\r\n     \"90\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"84\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"89\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"88\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"92\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"91\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"85\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"86\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"87\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"145\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"146\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"147\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"148\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"43\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"41\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"42\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"107\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"341\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"342\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"343\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"344\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     }\r\n  },\r\n  \"stores\":{\r\n     \"22\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"23\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"70\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"71\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"83\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"84\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"37\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"50\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"44\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"46\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"47\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"48\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     },\r\n     \"49\":{\r\n        \"bg\":1,\r\n        \"buyable\":1,\r\n        \"mbuyable\":1\r\n     }\r\n  }\r\n}"
+    }
+  },
+  "pwrUp": [],
+  "ebObj": {
+    "1": {
+      "uId": "PLACEHOLDER_USERID",
+      "bId": "1"
+    },
+    "2": {
+      "uId": "PLACEHOLDER_USERID",
+      "bId": "2"
+    },
+    "3": {
+      "uId": "PLACEHOLDER_USERID",
+      "bId": 3
+    },
+    "4": {
+      "uId": "PLACEHOLDER_USERID",
+      "bId": "4"
+    },
+    "5": {
+      "uId": "PLACEHOLDER_USERID",
+      "bId": "5"
+    },
+    "6": {
+      "uId": "PLACEHOLDER_USERID",
+      "bId": "6"
+    },
+    "8": {
+      "uId": "PLACEHOLDER_USERID",
+      "bId": "8"
+    }
+  },
+  "counter": {},
+  "mObj": {
+    "um": false
+  },
+  "uFs": [],
+  "uFrI": [],
+  "ava": {
+    "uId": "PLACEHOLDER_USERID",
+    "ge": 0,
+    "fa": 5,
+    "ha": 6,
+    "ey": 12,
+    "mo": 20,
+    "ht": 15,
+    "cl": 4,
+    "bg": 1
+  },
+  "lObj": [],
+  "cinema": {
+    "uId": "PLACEHOLDER_USERID",
+    "tickets": 3,
+    "dailyUpdate": 1606735984
+  },
+  "collItems": {
+    "1": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 1,
+      "cnt": 0
+    },
+    "3": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 3,
+      "cnt": 152
+    },
+    "4": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 4,
+      "cnt": 175
+    },
+    "5": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 5,
+      "cnt": 168
+    },
+    "6": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 6,
+      "cnt": 198
+    },
+    "7": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 7,
+      "cnt": 0
+    },
+    "8": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 8,
+      "cnt": 3
+    },
+    "9": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 9,
+      "cnt": 3
+    },
+    "10": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 10,
+      "cnt": 3
+    },
+    "11": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 11,
+      "cnt": 4
+    },
+    "18": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 18,
+      "cnt": 50
+    },
+    "19": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 19,
+      "cnt": 69
+    },
+    "20": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 20,
+      "cnt": 62
+    },
+    "21": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 21,
+      "cnt": 72
+    },
+    "22": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 22,
+      "cnt": 0
+    },
+    "23": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 23,
+      "cnt": 3
+    },
+    "24": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 24,
+      "cnt": 8
+    },
+    "25": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 25,
+      "cnt": 5
+    },
+    "26": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 26,
+      "cnt": 7
+    },
+    "27": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 27,
+      "cnt": 0
+    },
+    "28": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 28,
+      "cnt": 2
+    },
+    "29": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 29,
+      "cnt": 1
+    },
+    "30": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 30,
+      "cnt": 2
+    },
+    "31": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 31,
+      "cnt": 2
+    },
+    "38": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 38,
+      "cnt": 1
+    },
+    "39": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 39,
+      "cnt": 2
+    },
+    "40": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 40,
+      "cnt": 5
+    },
+    "41": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 41,
+      "cnt": 2
+    },
+    "43": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 43,
+      "cnt": 12
+    },
+    "44": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 44,
+      "cnt": 16
+    },
+    "45": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 45,
+      "cnt": 11
+    },
+    "46": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 46,
+      "cnt": 9
+    },
+    "47": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 47,
+      "cnt": 0
+    },
+    "48": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 48,
+      "cnt": 7
+    },
+    "49": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 49,
+      "cnt": 4
+    },
+    "51": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 51,
+      "cnt": 4
+    },
+    "53": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 53,
+      "cnt": 1
+    },
+    "54": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 54,
+      "cnt": 1
+    },
+    "56": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 56,
+      "cnt": 2
+    },
+    "59": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 59,
+      "cnt": 3
+    },
+    "61": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 61,
+      "cnt": 1
+    },
+    "63": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 63,
+      "cnt": 1
+    },
+    "64": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 64,
+      "cnt": 1
+    },
+    "65": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 65,
+      "cnt": 1
+    },
+    "66": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 66,
+      "cnt": 1
+    },
+    "67": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 67,
+      "cnt": 0
+    },
+    "68": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 68,
+      "cnt": 1
+    },
+    "69": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 69,
+      "cnt": 4
+    },
+    "70": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 70,
+      "cnt": 4
+    },
+    "71": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 71,
+      "cnt": 0
+    },
+    "72": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 72,
+      "cnt": 0
+    },
+    "73": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 73,
+      "cnt": 5
+    },
+    "74": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 74,
+      "cnt": 8
+    },
+    "75": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 75,
+      "cnt": 2
+    },
+    "76": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 76,
+      "cnt": 2
+    },
+    "77": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 77,
+      "cnt": 0
+    },
+    "78": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 78,
+      "cnt": 1
+    },
+    "79": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 79,
+      "cnt": 1
+    },
+    "80": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 80,
+      "cnt": 1
+    },
+    "81": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 81,
+      "cnt": 1
+    },
+    "88": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 88,
+      "cnt": 225
+    },
+    "89": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 89,
+      "cnt": 219
+    },
+    "90": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 90,
+      "cnt": 196
+    },
+    "91": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 91,
+      "cnt": 192
+    },
+    "92": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 92,
+      "cnt": 0
+    },
+    "108": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 108,
+      "cnt": 2
+    },
+    "109": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 109,
+      "cnt": 0
+    },
+    "110": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 110,
+      "cnt": 0
+    },
+    "111": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 111,
+      "cnt": 5
+    },
+    "112": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 112,
+      "cnt": 1
+    },
+    "113": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 113,
+      "cnt": 5
+    },
+    "114": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 114,
+      "cnt": 1
+    },
+    "115": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 115,
+      "cnt": 1
+    },
+    "116": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 116,
+      "cnt": 1
+    },
+    "117": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 117,
+      "cnt": 0
+    },
+    "124": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 124,
+      "cnt": 28
+    },
+    "135": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 135,
+      "cnt": 1
+    },
+    "138": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 138,
+      "cnt": 2
+    },
+    "160": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 160,
+      "cnt": 1
+    },
+    "164": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 164,
+      "cnt": 0
+    },
+    "165": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 165,
+      "cnt": 0
+    },
+    "166": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 166,
+      "cnt": 0
+    },
+    "167": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 167,
+      "cnt": 0
+    },
+    "168": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 168,
+      "cnt": 0
+    },
+    "182": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 182,
+      "cnt": 5
+    },
+    "183": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 183,
+      "cnt": 1
+    },
+    "205": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 205,
+      "cnt": 0
+    },
+    "206": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 206,
+      "cnt": 2
+    },
+    "207": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 207,
+      "cnt": 9
+    },
+    "208": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 208,
+      "cnt": 6
+    },
+    "209": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 209,
+      "cnt": 0
+    },
+    "243": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 243,
+      "cnt": 8
+    },
+    "244": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 244,
+      "cnt": 2
+    },
+    "245": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 245,
+      "cnt": 10
+    },
+    "246": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 246,
+      "cnt": 5
+    },
+    "253": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 253,
+      "cnt": 19
+    },
+    "284": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 284,
+      "cnt": 18
+    },
+    "285": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 285,
+      "cnt": 16
+    },
+    "286": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 286,
+      "cnt": 17
+    },
+    "287": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 287,
+      "cnt": 20
+    },
+    "288": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 288,
+      "cnt": 0
+    },
+    "289": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 289,
+      "cnt": 16
+    },
+    "290": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 290,
+      "cnt": 18
+    },
+    "291": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 291,
+      "cnt": 18
+    },
+    "292": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 292,
+      "cnt": 23
+    },
+    "293": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 293,
+      "cnt": 0
+    },
+    "294": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 294,
+      "cnt": 95
+    },
+    "305": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 305,
+      "cnt": 102
+    },
+    "306": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 306,
+      "cnt": 12
+    },
+    "307": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 307,
+      "cnt": 52
+    },
+    "320": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 320,
+      "cnt": 8
+    },
+    "321": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 321,
+      "cnt": 2
+    },
+    "322": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 322,
+      "cnt": 0
+    },
+    "323": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 323,
+      "cnt": 5
+    },
+    "324": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 324,
+      "cnt": 1
+    },
+    "335": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 335,
+      "cnt": 1
+    },
+    "336": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 336,
+      "cnt": 9
+    },
+    "337": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 337,
+      "cnt": 5
+    },
+    "398": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 398,
+      "cnt": 2
+    },
+    "399": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 399,
+      "cnt": 20
+    },
+    "400": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 400,
+      "cnt": 0
+    },
+    "411": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 411,
+      "cnt": 6050
+    },
+    "412": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 412,
+      "cnt": 0
+    },
+    "413": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 413,
+      "cnt": 43
+    },
+    "414": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 414,
+      "cnt": 36
+    },
+    "415": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 415,
+      "cnt": 43
+    },
+    "416": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 416,
+      "cnt": 31
+    },
+    "417": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 417,
+      "cnt": 0
+    },
+    "423": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 423,
+      "cnt": 20
+    },
+    "424": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 424,
+      "cnt": 39
+    },
+    "425": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 425,
+      "cnt": 18
+    },
+    "426": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 426,
+      "cnt": 3
+    },
+    "427": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 427,
+      "cnt": 6
+    },
+    "428": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 428,
+      "cnt": 11
+    },
+    "429": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 429,
+      "cnt": 3
+    },
+    "430": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 430,
+      "cnt": 0
+    },
+    "431": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 431,
+      "cnt": 6
+    },
+    "432": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 432,
+      "cnt": 5
+    },
+    "433": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 433,
+      "cnt": 5
+    },
+    "434": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 434,
+      "cnt": 7
+    },
+    "435": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 435,
+      "cnt": 0
+    },
+    "436": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 436,
+      "cnt": 2
+    },
+    "446": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 446,
+      "cnt": 3
+    },
+    "447": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 447,
+      "cnt": 0
+    },
+    "448": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 448,
+      "cnt": 0
+    },
+    "449": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 449,
+      "cnt": 0
+    },
+    "450": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 450,
+      "cnt": 1
+    },
+    "451": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 451,
+      "cnt": 1
+    },
+    "452": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 452,
+      "cnt": 2
+    },
+    "454": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 454,
+      "cnt": 1
+    },
+    "460": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 460,
+      "cnt": 110
+    },
+    "461": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 461,
+      "cnt": 20
+    },
+    "462": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 462,
+      "cnt": 0
+    },
+    "473": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 473,
+      "cnt": 3
+    },
+    "474": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 474,
+      "cnt": 18
+    },
+    "475": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 475,
+      "cnt": 29
+    },
+    "481": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 481,
+      "cnt": 7
+    },
+    "482": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 482,
+      "cnt": 9
+    },
+    "483": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 483,
+      "cnt": 5
+    },
+    "484": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 484,
+      "cnt": 12
+    },
+    "486": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 486,
+      "cnt": 6
+    },
+    "487": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 487,
+      "cnt": 6
+    },
+    "488": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 488,
+      "cnt": 7
+    },
+    "489": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 489,
+      "cnt": 8
+    },
+    "490": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 490,
+      "cnt": 0
+    },
+    "504": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 504,
+      "cnt": 7
+    },
+    "505": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 505,
+      "cnt": 5
+    },
+    "506": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 506,
+      "cnt": 5
+    },
+    "507": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 507,
+      "cnt": 10
+    },
+    "509": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 509,
+      "cnt": 6
+    },
+    "510": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 510,
+      "cnt": 15
+    },
+    "511": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 511,
+      "cnt": 19
+    },
+    "527": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 527,
+      "cnt": 2
+    },
+    "528": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 528,
+      "cnt": 15
+    },
+    "529": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 529,
+      "cnt": 13
+    },
+    "555": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 555,
+      "cnt": 5
+    },
+    "556": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 556,
+      "cnt": 5
+    },
+    "557": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 557,
+      "cnt": 5
+    },
+    "588": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 588,
+      "cnt": 2
+    },
+    "589": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 589,
+      "cnt": 2
+    },
+    "591": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 591,
+      "cnt": 2
+    },
+    "592": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 592,
+      "cnt": 2
+    },
+    "593": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 593,
+      "cnt": 0
+    },
+    "594": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 594,
+      "cnt": 0
+    },
+    "595": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 595,
+      "cnt": 2
+    },
+    "596": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 596,
+      "cnt": 0
+    },
+    "597": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 597,
+      "cnt": 0
+    },
+    "598": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 598,
+      "cnt": 3
+    },
+    "599": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 599,
+      "cnt": 1
+    },
+    "600": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 600,
+      "cnt": 2
+    },
+    "601": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 601,
+      "cnt": 3
+    },
+    "602": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 602,
+      "cnt": 0
+    },
+    "608": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 608,
+      "cnt": 6
+    },
+    "609": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 609,
+      "cnt": 5
+    },
+    "610": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 610,
+      "cnt": 3
+    },
+    "611": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 611,
+      "cnt": 5
+    },
+    "612": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 612,
+      "cnt": 0
+    },
+    "613": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 613,
+      "cnt": 10
+    },
+    "614": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 614,
+      "cnt": 18
+    },
+    "615": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 615,
+      "cnt": 3
+    },
+    "616": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 616,
+      "cnt": 10
+    },
+    "617": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 617,
+      "cnt": 0
+    },
+    "623": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 623,
+      "cnt": 1
+    },
+    "624": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 624,
+      "cnt": 0
+    },
+    "625": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 625,
+      "cnt": 4
+    },
+    "626": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 626,
+      "cnt": 1
+    },
+    "627": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 627,
+      "cnt": 0
+    },
+    "628": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 628,
+      "cnt": 0
+    },
+    "629": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 629,
+      "cnt": 1
+    },
+    "630": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 630,
+      "cnt": 1
+    },
+    "631": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 631,
+      "cnt": 1
+    },
+    "632": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 632,
+      "cnt": 2
+    },
+    "639": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 639,
+      "cnt": 3
+    },
+    "640": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 640,
+      "cnt": 3
+    },
+    "642": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 642,
+      "cnt": 2
+    },
+    "643": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 643,
+      "cnt": 1
+    },
+    "644": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 644,
+      "cnt": 6
+    },
+    "655": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 655,
+      "cnt": 10
+    },
+    "656": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 656,
+      "cnt": 11
+    },
+    "657": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 657,
+      "cnt": 3
+    },
+    "668": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 668,
+      "cnt": 0
+    },
+    "669": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 669,
+      "cnt": 12
+    },
+    "670": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 670,
+      "cnt": 7
+    },
+    "729": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 729,
+      "cnt": 8
+    },
+    "730": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 730,
+      "cnt": 9
+    },
+    "731": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 731,
+      "cnt": 3
+    },
+    "747": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 747,
+      "cnt": 5
+    },
+    "748": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 748,
+      "cnt": 4
+    },
+    "749": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 749,
+      "cnt": 0
+    },
+    "780": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 780,
+      "cnt": 1
+    },
+    "781": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 781,
+      "cnt": 1
+    },
+    "782": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 782,
+      "cnt": 1
+    },
+    "783": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 783,
+      "cnt": 47
+    },
+    "830": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 830,
+      "cnt": 4
+    },
+    "831": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 831,
+      "cnt": 5
+    },
+    "832": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 832,
+      "cnt": 4
+    },
+    "883": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 883,
+      "cnt": 3
+    },
+    "884": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 884,
+      "cnt": 6
+    },
+    "885": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 885,
+      "cnt": 1
+    },
+    "886": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 886,
+      "cnt": 2
+    },
+    "908": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 908,
+      "cnt": 1
+    },
+    "909": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 909,
+      "cnt": 1
+    },
+    "910": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 910,
+      "cnt": 3
+    },
+    "911": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 911,
+      "cnt": 1
+    },
+    "945": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 945,
+      "cnt": 6
+    },
+    "946": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 946,
+      "cnt": 6
+    },
+    "947": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 947,
+      "cnt": 7
+    },
+    "954": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 954,
+      "cnt": 2
+    },
+    "956": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 956,
+      "cnt": 2
+    },
+    "968": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 968,
+      "cnt": 15
+    },
+    "969": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 969,
+      "cnt": 1
+    },
+    "970": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 970,
+      "cnt": 79
+    },
+    "971": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 971,
+      "cnt": 2
+    },
+    "972": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 972,
+      "cnt": 2
+    },
+    "973": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 973,
+      "cnt": 6
+    },
+    "974": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 974,
+      "cnt": 3
+    },
+    "975": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 975,
+      "cnt": 0
+    },
+    "976": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 976,
+      "cnt": 6
+    },
+    "977": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 977,
+      "cnt": 4
+    },
+    "978": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 978,
+      "cnt": 6
+    },
+    "10000": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 10000,
+      "cnt": 3
+    },
+    "10001": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 10001,
+      "cnt": 4
+    },
+    "10002": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 10002,
+      "cnt": 2
+    },
+    "10003": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 10003,
+      "cnt": 6
+    },
+    "10006": {
+      "uId": "PLACEHOLDER_USERID",
+      "id": 10006,
+      "cnt": 41
+    }
+  },
+  "avaInv": {
+    "cl": [],
+    "ey": [],
+    "fa": [],
+    "ha": [],
+    "ht": [],
+    "mo": []
+  },
+  "uTObj": {
+    "ftb": false,
+    "t": 0,
+    "r": {
+      "1": {
+        "type": "decos",
+        "id": 40,
+        "cnt": 1
+      },
+      "2": {
+        "type": "resources",
+        "id": 6,
+        "cnt": 150
+      },
+      "3": {
+        "type": "resources",
+        "id": 15,
+        "cnt": 2
+      },
+      "4": {
+        "type": "user",
+        "id": 2,
+        "cnt": 6200
+      },
+      "5": {
+        "type": "animals",
+        "id": 174,
+        "cnt": 1,
+        "alias": "skunk"
+      },
+      "6": {
+        "type": "powerUps",
+        "id": 7,
+        "cnt": 1
+      },
+      "7": {
+        "type": "resources",
+        "id": 8,
+        "cnt": 2
+      },
+      "8": {
+        "type": "assists",
+        "id": 3,
+        "cnt": 1
+      }
+    }
+  },
+  "fObj": {
+    "stores": {
+      "0": {},
+      "01PLACEHOLDER_USERID": {
+        "101": {
+          "id": 101,
+          "uId": "PLACEHOLDER_USERID",
+          "fId": "01PLACEHOLDER_USERID",
+          "stId": 1,
+          "act": 1,
+          "x": 32,
+          "y": 86,
+          "r": 0,
+          "build": 1313749616,
+          "collect": 1387812591,
+          "fTime": 1387796606
+        }
+      }
+    },
+    "specials": [
+      {
+        "163189": {
+          "id": 163189,
+          "uId": "PLACEHOLDER_USERID",
+          "fId": 0,
+          "sbId": 2,
+          "act": 0,
+          "level": 0,
+          "x": 36,
+          "y": 75,
+          "r": 0,
+          "build": 1357495531,
+          "end": 1606779380,
+          "usedItemType1": 11,
+          "usedItemId1": 185,
+          "usedItemType2": 0,
+          "usedItemId2": 0,
+          "usedItemType3": 0,
+          "usedItemId3": 0,
+          "usedItemType4": 0,
+          "usedItemId4": 0,
+          "usedItemType5": 0,
+          "usedItemId5": 0
+        },
+        "164826": {
+          "id": 164826,
+          "uId": "PLACEHOLDER_USERID",
+          "fId": 0,
+          "sbId": 1,
+          "act": 0,
+          "level": 0,
+          "x": 0,
+          "y": 0,
+          "r": 0,
+          "build": 1358452740,
+          "end": 0,
+          "usedItemType1": 0,
+          "usedItemId1": 0,
+          "usedItemType2": 0,
+          "usedItemId2": 0,
+          "usedItemType3": 0,
+          "usedItemId3": 0,
+          "usedItemType4": 0,
+          "usedItemId4": 0,
+          "usedItemType5": 0,
+          "usedItemId5": 0
+        }
+      }
+    ],
+    "cages": {
+      "01PLACEHOLDER_USERID": {}
+    },
+    "roads": {
+      "0": {},
+      "01PLACEHOLDER_USERID": {
+        "103": {
+          "id": 103,
+          "uId": "PLACEHOLDER_USERID",
+          "fId": "01PLACEHOLDER_USERID",
+          "rId": 1,
+          "act": 1,
+          "x": 31,
+          "y": 86,
+          "r": 0,
+          "deco": 0,
+          "trashbin": 0
+        },
+        "104": {
+          "id": 104,
+          "uId": "PLACEHOLDER_USERID",
+          "fId": "01PLACEHOLDER_USERID",
+          "rId": 1,
+          "act": 1,
+          "x": 31,
+          "y": 87,
+          "r": 0,
+          "deco": 0,
+          "trashbin": 0
+        },
+        "105": {
+          "id": 105,
+          "uId": "PLACEHOLDER_USERID",
+          "fId": "01PLACEHOLDER_USERID",
+          "rId": 1,
+          "act": 1,
+          "x": 31,
+          "y": 88,
+          "r": 0,
+          "deco": 0,
+          "trashbin": 0
+        }
+      }
+    },
+    "decos": {
+      "0": {},
+      "01PLACEHOLDER_USERID": {}
+    },
+    "trashbins": {
+      "0": {},
+      "01PLACEHOLDER_USERID": {}
+    }
+  },
+  "init": "",
+  "recyclingSlots": {
+    "1": {
+      "uId": "PLACEHOLDER_USERID",
+      "slotId": 1,
+      "materialId": 25,
+      "amount": 5,
+      "finishTime": 1606760862,
+      "endTime": 0
+    }
+  },
+  "crafting": {
+    "active": 0
   }
+}

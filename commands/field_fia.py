@@ -3,6 +3,7 @@ from utils import shopUtils
 
 empty_cage = {"id":-1,"uId":0,"fId":0,"cId":1,"sId":0,"level":1,"x":34,"y":84,"r":0,"male":0,"female":0,"child":0,"build":1605824682,"breed":0,"clean":0,"feed":0,"water":0,"cuddle":0,"sick":0,"health":0,"sfeed":0,"eventId":0,"evEnd":0,"drops":{"cu":{"col":0,"eItem":0,"eCol":0},"cl":{"col":{"id":244,"amount":1},"eItem":0,"eCol":0},"wa":{"col":0,"eItem":0,"eCol":0},"fe":{"col":0,"pp":2,"pl":0,"eItem":0,"eCol":0},"sf":{"col":0,"pp":2,"pl":0,"eItem":0},"pf":{"col":0,"pp":2,"pl":0,"eItem":0},"hl":{"pp":2,"pl":0},"sh":{"pp":3,"pl":0},"eb":{"pp":2,"pl":0},"db":{"pp":2,"pl":0}}}
 empty_animal = {"id":-1,"uId":0,"aId":0,"sId":0,"cId":0,"fId":0,"fTime":0}
+empty_road = {"id": -1,"uId": 0,"fId": 0,"rId": 6,"act": 1,"x": 24,"y": 72,"r": 0,"deco": 0,"trashbin": 6341202}
 
 def handle_fieldFia(request, user_id, obj, json_data, config_data):
     current_field_id = json_data["uObj"]["current_field"]
@@ -120,6 +121,86 @@ def handle_fieldFia(request, user_id, obj, json_data, config_data):
                     json_data["fObj"]["cages"][str(current_field_id)][str(request["id"])]["water"] = current_time + config_data_for_species["waterTime"]
                 json_data["res"][str(food_id)]["cnt"] -= total_food_cost
 
-
+            obj["uObj"] = json_data["uObj"]
             obj["fObj"] = json_data["fObj"]
             obj["res"] = json_data["res"]
+
+        case ("cAC" | "cuAC"): # CLEAN_ANIMAL_CAGE or CUDDLE_ANIMAL_CAGE
+            current_time = int(time.time())
+            species_id = json_data["fObj"]["cages"][str(current_field_id)][str(request["id"])]["sId"]
+            config_data_for_species = config_data["gameItems"]["animalsSpecies"][str(species_id)]
+
+            if request["fia"] == "cAC":
+                json_data["fObj"]["cages"][str(current_field_id)][str(request["id"])]["clean"] = current_time + config_data_for_species["cleanTime"]
+            elif request["fia"] == "cuAC":
+                json_data["fObj"]["cages"][str(current_field_id)][str(request["id"])]["cuddle"] = current_time + config_data_for_species["cuddleTime"]
+
+            obj["uObj"] = json_data["uObj"]
+            obj["fObj"] = json_data["fObj"]
+
+        case "bR": # BUY_ROAD
+            # Create field object if needed
+            if str(current_field_id) not in json_data["fObj"]["roads"]:
+                json_data["fObj"]["roads"][str(current_field_id)] = {}
+
+            # Initialize new road
+            new_road = empty_road.copy()
+            new_road["id"] = json_data["next_object_id"]
+            new_road["uId"] = user_id
+            new_road["fId"] = current_field_id
+            new_road["rId"] = request["rId"]
+            new_road["x"] = request["x"]
+            new_road["y"] = request["y"]
+            new_road["r"] = request["r"]
+            new_road["trashbin"] = int(time.time())
+
+            json_data["next_object_id"] += 1
+            json_data["fObj"]["roads"][str(current_field_id)][str(new_road["id"])] = new_road
+
+            # Buy item
+            config_data_for_road = config_data["gameItems"]["roads"][str(request["rId"])]
+            shopUtils.buy_from_shop(config_data_for_road, json_data["uObj"]["uLvl"], json_data)
+
+            # Send objects to game
+            obj["fObj"] = json_data["fObj"]
+            obj["req"] = request["req:"] # typo by bigpoint lol
+            obj["uObj"] = json_data["uObj"]
+
+        case "cEf": # COLLECT_ENTRANCE_FEE
+            json_data["uObj"]["uCv"] += json_data["uObj"]["entranceFee"]
+            json_data["uObj"]["entranceFee"] = 0
+
+            # Send objects to game
+            obj["req"] = request["req:"] # typo by bigpoint lol
+            obj["uObj"] = json_data["uObj"]
+
+        case "cSt": # COLLECT_STORE_MONEY
+            # the fTime in player json seems to be unused?
+
+            config_data_for_store = config_data["gameItems"]["stores"][str(request["id"])]
+
+            store = json_data["fObj"]["stores"][str(current_field_id)][str(request["id"])]
+
+            if(int(time.time()) >= store["collect"]):
+                store["collect"] = int(time.time()) + config_data_for_store["collectTime"]
+                json_data["uObj"]["uCv"] += config_data_for_store["collectVirtual"]
+
+            # Send objects to game
+            obj["req"] = request["req:"] # typo by bigpoint lol
+            obj["uObj"] = json_data["uObj"]
+            obj["fObj"] = json_data["fObj"]
+
+        case "bIr": # BUY_RESOURCE
+
+            # Buy item
+            config_data_for_resource = config_data["gameItems"]["resources"][str(request["irId"])]
+            shopUtils.buy_multiple_from_shop(config_data_for_resource, json_data["uObj"]["uLvl"], json_data, request["cnt"])
+            json_data["res"][str(request["irId"])]["cnt"] += request["cnt"]
+
+            # Send objects to game
+            obj["req"] = request["req:"] # typo by bigpoint lol
+            obj["uObj"] = json_data["uObj"]
+            obj["res"] = json_data["res"]
+
+        case _:
+            print(f"field.fia case {request["fia"]} not handled.")
