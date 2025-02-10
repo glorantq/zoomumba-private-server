@@ -194,6 +194,7 @@ def main():
         new_player_data = userUtils.replace_placeholders(new_player_data, "PLACEHOLDER_USERID", str(id))
         new_player_data = userUtils.replace_placeholders(new_player_data, "01PLACEHOLDER_USERID", "01" + str(id))
         new_player_data = userUtils.replace_placeholders(new_player_data, "PLACEHOLDER_SID", secret_id)
+        new_player_data["uObj"]["uName"] = username
 
         # NOTE:
         # We handle field ids different than the original game, instead of a random (probably global) number we do
@@ -238,7 +239,26 @@ def main():
     
     @app.route("/assets/<path:path>")
     def static_assets_loader(path):
-        return send_from_directory(ASSETS_DIR, path)
+        return redirect("https://cdn.jsdelivr.net/gh/michielvde1253/zoomumba-private-server/assets/" + path)
+        #return send_from_directory(ASSETS_DIR, path)
+    
+    #@app.route("/assets/<path:path>")
+    #def static_assets_loader(path):
+    #    file_url = "https://cdn.jsdelivr.net/gh/michielvde1253/zoomumba-private-server/assets/" + path
+    #    if not file_url:
+    #        return "Please provide a file URL using the 'url' query parameter.", 400
+#
+    #    response = requests.get(file_url, stream=True)
+    #    if response.status_code != 200:
+    #        return "Failed to download file.", 500
+#
+    #    file_data = io.BytesIO(response.content)  # Store file in memory
+    #    file_data.seek(0)  # Ensure the file-like object is at the start
+#
+    #    # Extract filename from URL
+    #    filename = file_url.split("/")[-1] or "downloaded_file"
+#
+    #    return send_file(file_data, mimetype=response.headers.get('Content-Type', 'application/octet-stream'), as_attachment=False, download_name=filename)
     
     
     @app.route("/templates/styles/<path:path>")

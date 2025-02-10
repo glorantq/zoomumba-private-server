@@ -203,4 +203,4 @@ def handle_fieldFia(request, user_id, obj, json_data, config_data):
             obj["res"] = json_data["res"]
 
         case _:
-            print(f"field.fia case {request["fia"]} not handled.")
+            print("field.fia case not handled.")
