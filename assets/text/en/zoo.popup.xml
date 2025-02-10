@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<language>
+  <category name="zoo.popup.cageSlots">
+    <item name="zoo.popup.cageSlots.desc"><![CDATA[Animals in the enclosure]]></item>
+  </category>
+</language>
