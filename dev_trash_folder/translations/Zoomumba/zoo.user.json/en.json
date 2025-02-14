@@ -1,0 +1,6 @@
+{
+    "zoo.user;zoo.user;zoo.user.name": "Player name",
+    "zoo.user;zoo.user;zoo.user.id": "Player ID",
+    "zoo.user;zoo.user;zoo.user.notAuth.title": "Verification",
+    "zoo.user;zoo.user;zoo.user.notAuth.info": "Verification failed. Please log in again."
+}

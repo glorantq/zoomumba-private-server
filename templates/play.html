@@ -9,8 +9,7 @@
       <link rel="icon" type="image/png" href="{{ASSETSIP}}/assets/favicon.ico" />
       <script type="text/javascript" src="{{ASSETSIP}}/assets/js/jquery-1.7.1.min.js"></script>
       <script type="text/javascript" src="{{ASSETSIP}}/assets/js/swfobject.js"></script>
-      <script type="text/javascript" src="{{ASSETSIP}}/assets/js/skyrama.js"></script>
-      <link rel="stylesheet" type="text/css" href="{{SERVERIP}}/templates/styles/play.css" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/michielvde1253/zoomumba-private-server/templates/styles/playTemp1.css" />
       <script src="https://kit.fontawesome.com/9184ea9ca6.js" crossorigin="anonymous"></script>
    </head>
    <!-- EMBED GAME -->
@@ -71,11 +70,11 @@
       var flashVars = {
           uId: '{{userid}}',
           token: '{{token}}',
-          apiHost: '127.0.0.1:5050',
-          cdnHost: '127.0.0.1:5050/assets',
+          apiHost: '{{SERVERIP}}',
+          cdnHost: '{{SERVERIP}}/assets',
           locale: 'cs',
-          preCv: 'largeplanes',
-          isHTTPS: '0',
+          preCv: 'largeplanes', // Don't remove this, it will make the preloader disappear. Please DON'T ASK ME WHY, just do it xDD
+          isHTTPS: '{{isHTTPS}}',
           eventStreamContext: "",
           openSocial: 0,
           ssoUser: 0,

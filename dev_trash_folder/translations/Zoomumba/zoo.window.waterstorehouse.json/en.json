@@ -1,0 +1,16 @@
+{
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.titel.store": "Warehouse building",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.text.water": "Animals need a lot of water. Upgrade your water tower level by level and make sure you have enough water for everyone as your zoo grows.",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.titel.water": "Water Tower",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.text.store": "Your animals need a lot of food. Expand your storage level by level and make sure you have enough food for everyone as your zoo grows.",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.textmax.store": "Bravo! You've expanded the warehouse to the maximum level.",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.textmax.water": "Bravo! You've extended the water tower to the maximum level.",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.leveltext": "Aktu\u00e1ln\u00ed stupe\u0148 roz\u0161\u00ed\u0159en\u00ed: %have% \/ %max%",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.bartext.water": "Current capacity of the water tower",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.bartext.store": "Current capacity of the storage",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.buy.titel": "Expand",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.buy.text": "Would you like to<br>expand your zoo?",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.buy.upgraderc": "Expand for zoodollars",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.buy.upgradevc": "Expand for zoogrosh",
+    "zoo.window.waterstorehouse;zoo.window.waterstorehouse;zoo.window.waterstorehouse.buy.nextcap": "New size:"
+}

@@ -1,0 +1,23 @@
+{
+    "zoo.slayer;zoo.slayer.friends;zoo.slayer.friends.title": "Friends",
+    "zoo.slayer;zoo.slayer.friends;zoo.slayer.friends.message": "Send a message to this friend",
+    "zoo.slayer;zoo.slayer.friends;zoo.slayer.friends.delete": "Are you sure you want to remove this player from your friends list?",
+    "zoo.slayer;zoo.slayer.friends;zoo.slayer.friends.visit": "Visit your friend's zoo.",
+    "zoo.slayer;zoo.slayer.friends;zoo.slayer.friends.empty": "All alone? Why not quickly invite a few friends to play together? More people means more fun!",
+    "zoo.slayer;zoo.slayer.receivedInvites;zoo.slayer.receivedInvites.title": "Friend requests received",
+    "zoo.slayer;zoo.slayer.receivedInvites;zoo.slayer.receivedInvites.accept": "Accept friend request",
+    "zoo.slayer;zoo.slayer.receivedInvites;zoo.slayer.receivedInvites.deny": "Decline friend request",
+    "zoo.slayer;zoo.slayer.receivedInvites;zoo.slayer.receivedInvites.empty": "Unfortunately, you don't have any new friend requests.",
+    "zoo.slayer;zoo.slayer.sentInvites;zoo.slayer.sentInvites.title": "Sent friend requests",
+    "zoo.slayer;zoo.slayer.sentInvites;zoo.slayer.sentInvites.empty": "You haven't sent any friend requests.",
+    "zoo.slayer;zoo.slayer.add;zoo.slayer.add.title": "Invite friends",
+    "zoo.slayer;zoo.slayer.add;zoo.slayer.add.requested": "Bravo! You have successfully sent your friend request to user %useName%.",
+    "zoo.slayer;zoo.slayer.add;zoo.slayer.add.text": "Don't want to play ZooMumba alone anymore and would rather enjoy it with others? Invite your friends!",
+    "zoo.slayer;zoo.slayer.add;zoo.slayer.add.byName": "Invite friends to play ZooMumba!",
+    "zoo.slayer;zoo.slayer.add;zoo.slayer.add.byName.message": "Please enter the usernames of your friends to send a friendship request.",
+    "zoo.slayer;zoo.slayer.add;zoo.slayer.add.duplicated.message": "We found more than one username while searching. Please select your friend from the list:",
+    "zoo.slayer;zoo.slayer.add;zoo.slayer.add.self": "You cannot add yourself to your own friend list!",
+    "zoo.slayer;zoo.slayer.add;zoo.slayer.add.byMail": "Invite friends by email.",
+    "zoo.slayer;zoo.slayer.add;zoo.slayer.add.byFB": "Invite friends via Facebook.",
+    "zoo.slayer;zoo.slayer.add;zoo.slayer.add.button": "Invite"
+}

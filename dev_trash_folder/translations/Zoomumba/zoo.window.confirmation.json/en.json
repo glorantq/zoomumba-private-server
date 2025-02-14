@@ -1,0 +1,19 @@
+{
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.map.buyzooandlevel": "To unlock this zoo, you need to be at level %level%. Or unlock it immediately for %zooDollar% zoodollars.",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.map.buyzooandextention": "This zoo is not available yet. You can unlock it by reaching %level% expansions in the following zoo: %zooName%. Or unlock it immediately for %zooDollar% zoodollars.",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.closegame.title": "End game",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.map.level": "You need to be at level %level% to unlock this zoo.",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.map.buy": "Do you want to buy a zoo expansion?",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.title.buy": "Buy",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.closegame.info": "Do you really<br>want to exit ZooMumba?",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.shop.buyitemreal.title": "Buy items",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.shop.buyitemreal.info": "Do you really want to buy this item?",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.shop.buyMove.title": "Buy move",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.shop.buyMove.info": "Do you want to make this move for zoodollars?",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.sellitemaction.title": "Sell",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.sellitemaction.info": "Do you really want to sell this item?",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.sendeventitemtoinventory.title": "Warning",
+    "zoo.window.confirmation;zoo.window.confirmation;zoo.window.confirmation.sendeventitemtoinventory.info": "If you place the enclosure into your inventory, it will lose its action upgrade.<br><br>Do you want to continue?",
+    "zoo.window.confirmation;zoo.window.confirmation.gift;zoo.window.confirmation.gift.title": "Attention!",
+    "zoo.window.confirmation;zoo.window.confirmation.gift;zoo.window.confirmation.gift.info": "You haven't selected your 5 friends yet! If you continue, your gifts will be lost. That would be a shame... Do you still want to continue?"
+}

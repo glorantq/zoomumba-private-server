@@ -1,0 +1,18 @@
+{
+    "zoo.nursery;zoo.nursery.tooltip;zoo.nursery.tooltip.nurseryRaising": "This is where the cub's growing up.",
+    "zoo.nursery;zoo.nursery.tooltip;zoo.nursery.tooltip.nurseryEmpty": "Ready to grow",
+    "zoo.nursery;zoo.nursery;zoo.nursery.info": "Ahoj, j\u00e1 jsem T\u00fdna a star\u00e1m se o tv\u00e1 ml\u00e1\u010fata. V moj\u00ed zv\u00ed\u0159ec\u00ed \u0161kolce vyr\u016fstaj\u00ed v dosp\u011bl\u00e1 zv\u00ed\u0159ata. Zvol si ze sv\u00e9ho invent\u00e1\u0159e ml\u00e1d\u011b, kter\u00e9 chce\u0161 nechat vyr\u016fst.",
+    "zoo.nursery;zoo.nursery.tooltip;zoo.nursery.tooltip.nurseryDone": "Tv\u00e9 ml\u00e1d\u011b vyrostlo!",
+    "zoo.nursery;zoo.nursery.button;zoo.nursery.button.raise": "Raise",
+    "zoo.nursery;zoo.nursery.button;zoo.nursery.button.elixir": "Pou\u017eij esenci",
+    "zoo.nursery;zoo.nursery.button;zoo.nursery.button.instantRaise": "Vychovat ihned",
+    "zoo.nursery;zoo.nursery.layer;zoo.nursery.layer.inProgress.title": "Animal breeding",
+    "zoo.nursery;zoo.nursery.layer;zoo.nursery.layer.inProgress.text": "Tento prcek bude ihned odchov\u00e1n:",
+    "zoo.nursery;zoo.nursery.layer;zoo.nursery.layer.inProgress.time": "Zb\u00fdvaj\u00edc\u00ed \u010das:",
+    "zoo.nursery;zoo.nursery.layer;zoo.nursery.layer.instantRaise.title": "Vychovat ihned",
+    "zoo.nursery;zoo.nursery.layer;zoo.nursery.layer.instantRaise.text": "Ne\u017e bys \u0159ekl \u0161vec, bude tv\u016fj drobek dosp\u011bl\u00fd!",
+    "zoo.nursery;zoo.nursery.layer;zoo.nursery.layer.elixir.text": "R\u016fstov\u00fd lektvar zkracuje dobu odchovu o 50 %.",
+    "zoo.nursery;zoo.nursery.layer;zoo.nursery.layer.success": "Jup\u00ed\u00ed! Toto ml\u00e1d\u011b vyrostlo a bylo p\u0159esunuto do tv\u00e9ho invent\u00e1\u0159e:",
+    "zoo.nursery;zoo.nursery.layer;zoo.nursery.layer.inventorize": "Pozor: Zde zrovna vyr\u016fst\u00e1 ml\u00e1d\u011b! Kdy\u017e p\u0159esune\u0161 \u0161kolku do invent\u00e1\u0159e, bude proces p\u0159eru\u0161en. Opravdu chce\u0161 prov\u00e9st p\u0159esun ihned?",
+    "zoo.nursery;zoo.nursery.layer;zoo.nursery.layer.sellNursery": "Pozor: Zde zrovna vyr\u016fst\u00e1 ml\u00e1d\u011b! Kdy\u017e \u0161kolku nyn\u00ed prod\u00e1\u0161, bude proces p\u0159eru\u0161en. Opravdu chce\u0161 \u0161kolku prodat ihned?"
+}
