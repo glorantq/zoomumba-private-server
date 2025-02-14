@@ -1,0 +1,12 @@
+{
+    "zoo.window.bonus;zoo.window.bonus;zoo.window.bonus.main.title": "Bonus code",
+    "zoo.window.bonus;zoo.window.bonus;zoo.window.bonus.main.info": "Do you have a ZooMumba bonus code? Simply enter it here and receive your bonus right away!",
+    "zoo.window.bonus;zoo.window.bonus;zoo.window.bonus.success.title": "Congratulations,",
+    "zoo.window.bonus;zoo.window.bonus;zoo.window.bonus.success.info": "Great, you entered the bonus code correctly and received your reward. We wish you lots of fun!",
+    "zoo.window.bonus;zoo.window.bonus.error;zoo.window.bonus.error.invalid.title": "Error",
+    "zoo.window.bonus;zoo.window.bonus.error;zoo.window.bonus.error.invalid.info": "Unfortunately, the bonus code is incorrect. Please check the code and try again.",
+    "zoo.window.bonus;zoo.window.bonus.error;zoo.window.bonus.error.participated.title": "Error",
+    "zoo.window.bonus;zoo.window.bonus.error;zoo.window.bonus.error.participated.info": "You\u2019ve already claimed this bonus code.",
+    "zoo.window.bonus;zoo.window.bonus.error;zoo.window.bonus.error.bruteforce.title": "Error",
+    "zoo.window.bonus;zoo.window.bonus.error;zoo.window.bonus.error.bruteforce.info": "You\u2019ve entered the bonus code incorrectly too many times. Please wait a few minutes before trying again."
+}

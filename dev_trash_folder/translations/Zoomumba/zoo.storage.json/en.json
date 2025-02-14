@@ -1,0 +1,14 @@
+{
+    "zoo.storage;zoo.storage.moreSpace;zoo.storage.moreSpace.title": "Expand your zoo!",
+    "zoo.storage;zoo.storage.firstExpansion;zoo.storage.firstExpansion.title": "Water tower & warehouse",
+    "zoo.storage;zoo.storage.moreSpace;zoo.storage.moreSpace.text": "You can buy this item only when you have %neededExpansion% zoo expansions. Currently, you have only %userExpansion% zoo expansions. Do you want to expand your zoo right now so you can buy this item?",
+    "zoo.storage;zoo.storage.firstExpansion;zoo.storage.firstExpansion.text": "Great! You finally have enough space to build your first water tower and storage facility. Both items are free in your inventory. Now, let the game begin!",
+    "zoo.storage;zoo.storage.buy;zoo.storage.buy.belowWater": "The maximum capacity of the water tower is %capacity%. This value cannot be increased, even by purchasing this building. Do you still want to buy it?",
+    "zoo.storage;zoo.storage.buy;zoo.storage.buy.belowFood": "The maximum capacity of your supply storage is %capacity%. This value cannot be increased, even by purchasing this building. Do you still want to buy it?",
+    "zoo.storage;zoo.storage.buy;zoo.storage.buy.maxWater": "You have %capacity% of your water capacity available. You can't store any more. This building won't increase your capacity. Do you still want to buy it?",
+    "zoo.storage;zoo.storage.capacity;zoo.storage.capacity.title": "Storage capacity",
+    "zoo.storage;zoo.storage.buy;zoo.storage.buy.maxFood": "You have %capacity% of your storage capacity available. You cannot store any more. This building will not increase your capacity. Do you still want to buy it?",
+    "zoo.storage;zoo.storage.capacity;zoo.storage.capacity.text": "Your animals need a lot of feed and water. Here you can see how much of each you have available and how much you can expand.",
+    "zoo.storage;zoo.storage.capacity;zoo.storage.capacity.water": "Water - capacity",
+    "zoo.storage;zoo.storage.capacity;zoo.storage.capacity.food": "Feed - capacity"
+}

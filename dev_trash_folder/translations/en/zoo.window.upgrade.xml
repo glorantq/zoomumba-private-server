@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<language>
+  <category name="zoo.window.upgrade">
+    <item name="zoo.window.upgrade.info"><![CDATA[Upgrade your enclosures, beautify them and make your zoo even more attractive.]]></item>
+    <item name="zoo.window.upgrade.button"><![CDATA[Upgrade]]></item>
+    <item name="zoo.window.upgrade.easter.info"><![CDATA[From 21-27 April, the Easter bunny will hop through your zoo and leave an egg. Collect them and exchange them for Easter enclosure decorations, Easter bunnies and enclosures.]]></item>
+  </category>
+</language>

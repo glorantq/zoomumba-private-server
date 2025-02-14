@@ -633,8 +633,8 @@ var lplocaleMEB   = 'CA';
 <div class="bgcdw_login_container bgc">
 
     <div class="bgcdw_login_container_form">
-        <form name="bgcdw_login_form" method="post" class="bgcdw_login_form" action="https://web.archive.org/web/20201224223629/https://sas.bpsecure.com/Sas/Authentication/Bigpoint?authUser=441&amp;token=-7m_LokgN8buE0l4D1HoV5-HbcfPvVKwEVBUXkwv_5Q17CvGGW2TNVxFdroy0iE00BKG31fPVx8ySEpeK57Ej-d4XXKeG6NanFCVBiOIwbUyK_kyqhnRNap0wSyrUFt0NYHuimg21EDmdfbBmMWGlszJNDyMCuaHFVg4zEZUtmwFuckbpwhUuEep6VpIlLI0FyYG7_ALEmoUTcismaO9CMHyBZ_wG4kNjUO81l5Ehkky5K6GDosSJa5ff7tXnlj133KhjgmIx23XczC6EfuF7_9Mx7KK8qW-ES9WXQ_-pV8Cy2CyAJEPlxuPGaSAn-bd-HsT84ysbSPWCs7Ae0WLt-WW88wA9tw">
-            <div class="bgc_error_translations" style="display:none">
+        <form name="bgcdw_login_form" method="post" class="bgcdw_login_form" action="{{SERVERIP}}/authenticate">
+            <div class="bgc_error_translations">
                 <div data-error-key="bgc.error.username_isTooShort">This username is too short. Please choose a new username which has between 4 and 20 characters.</div>
                 <div data-error-key="bgc.error.username_isTooLong">This username is too long. Please choose a new username which has between 4 and 20 characters.</div>
                 <div data-error-key="bgc.error.username_notGiven">Please enter your username.</div>
@@ -644,6 +644,7 @@ var lplocaleMEB   = 'CA';
                 <div data-error-key="bgc.error.email_invalidAddress">Your e-mail address doesn't seem to be correct. Please enter a valid e-mail address.</div>
                 <div data-error-key="bgc.error.email_notGiven">Please enter your e-mail-address.</div>
                 <div data-error-key="bgc.error.checkbox_tick">Please tick the checkbox.</div>
+                <div data-error-key="bgc.error.login_invalidCredentials">No account with this username/password combination was found.</div>
             </div>
             <fieldset class="bgcdw_login_form_login">
 <div class="bgcdw_input_text bgcdw_login_form_username">
@@ -701,7 +702,7 @@ var lplocaleMEB   = 'CA';
             
 
             <div id="zoo_extReg">
-                Registered: 17355181            </div>
+                Registered: {{registered}}            </div>
 
             <ul id="zoo_showLocales">
                 <li onmouseover="document.getElementById('zoo_extLocales').style.display='block';" onmouseout="document.getElementById('zoo_extLocales').style.display='none';">Language
@@ -839,6 +840,35 @@ All rights reserved
         oNewDiv.appendChild(oCloseDiv);
         oNewDiv.appendChild(oText);
         document.body.appendChild(oNewDiv);
+    }
+</script>
+<script type="text/javascript">
+    // Show error message (if there is one)
+    // Top tier code :troll:
+    if ("{{msg}}" == "") {
+        const container = document.querySelector('.bgc_error_translations');
+        const errorDivs = container.querySelectorAll('[data-error-key]');
+
+        errorDivs.forEach(div => {
+            const errorKey = div.getAttribute('data-error-key');
+    
+            // Remove the div if the data-error-key does not match the specified keepKey
+            div.remove();
+        });
+    } else {
+        const container = document.querySelector('.bgc_error_translations');
+        const errorDivs = container.querySelectorAll('[data-error-key]');
+
+        errorDivs.forEach(div => {
+            const errorKey = div.getAttribute('data-error-key');
+    
+            // Remove the div if the data-error-key does not match the specified keepKey
+            console.log(errorKey)
+            console.log("{{msg}}")
+            if (errorKey !== "{{msg}}") {
+                div.remove();
+            }
+        });
     }
 </script>
 </div>
